@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 122,
+    "uniqCompNum": 123,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -197,7 +197,7 @@
           },
           "title": "Discover How To Gain Your Total Deliverance In All Aspects Of Your Life In This Full Program",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=97XEEWGVR3XT6\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">REGISTER HERE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>   "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"http://prosperinggodsway.com/prospering-gods-way/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">REGISTER HERE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>   "
         },
         {
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\">SUBSCRIBE NOW</a>",
@@ -243,7 +243,7 @@
           },
           "title2": "REGISTER NOW DURING THIS SPECIAL LAUNCH FOR OUR NEWSLETTER!",
           "form": {
-            "action": "bzrnorman@gmail.com",
+            "action": "http://prosperinggodsway.com/prospering-gods-way/",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -674,14 +674,14 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/300x250-1024x576.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -998,14 +998,14 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -1474,14 +1474,14 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -1914,14 +1914,14 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -2405,14 +2405,14 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -2691,33 +2691,33 @@
             "slides": [
               {
                 "src": "@PROJECT_PATH@/assets/images/887c-2000x1125.jpg",
+                "active": true,
                 "link": true,
                 "linkUrl": "http://prosperinggodsway.com/enlightenedtoyourtotaldeliverance/enlightened-to-your-total-freedom-sales-page/",
                 "image": "@PROJECT_PATH@/assets/images/887c-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/887c-85x48.png",
-                "active": true
+                "tooltip": "@PROJECT_PATH@/assets/images/887c-85x48.png"
               },
               {
                 "src": "@PROJECT_PATH@/assets/images/enlightened-video1a-1024x576.jpg",
+                "active": false,
                 "link": true,
                 "linkUrl": "http://completesavemarriagesofthisgenerationblueprint.com/save-marriages-blueprint/save-marriages-blueprint/",
                 "image": "@PROJECT_PATH@/assets/images/enlightened-video1a-1024x576.jpg",
                 "title": "title 2",
                 "text": "text 2",
-                "tooltip": "@PROJECT_PATH@/assets/images/enlightened-video1a-85x48.png",
-                "active": false
+                "tooltip": "@PROJECT_PATH@/assets/images/enlightened-video1a-85x48.png"
               },
               {
                 "src": "@PROJECT_PATH@/assets/images/ete-audios--2000x1049.png",
+                "active": false,
                 "link": true,
                 "linkUrl": "http://prosperinggodsway.com/enlightenedtoyourtotaldeliverance/enlightened-to-your-total-freedom-sales-page/",
                 "image": "@PROJECT_PATH@/assets/images/ete-audios-1024x576.jpg",
                 "title": "title 3",
                 "text": "text 3",
-                "tooltip": "@PROJECT_PATH@/assets/images/ete-audios-85x48.png",
-                "active": false
+                "tooltip": "@PROJECT_PATH@/assets/images/ete-audios-85x48.png"
               },
               {
                 "src": "@PROJECT_PATH@/assets/images/enlightened%20yt1-2000x1125.jpg",
@@ -3164,14 +3164,14 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
