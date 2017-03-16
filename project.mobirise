@@ -151,7 +151,7 @@
           "_params": {
             "imageSize": 50,
             "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -243,7 +243,7 @@
           },
           "title2": "REGISTER NOW DURING THIS SPECIAL LAUNCH FOR OUR NEWSLETTER!",
           "form": {
-            "action": "http://prosperinggodsway.com/prospering-gods-way/",
+            "action": "enlightenedfirst@gmail.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -675,7 +675,7 @@
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/300x250-1024x576.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/180x120-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
@@ -999,7 +999,7 @@
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/180x120-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1475,7 +1475,7 @@
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/180x120-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1915,7 +1915,7 @@
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/180x120-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
@@ -2406,7 +2406,7 @@
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/180x120-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
@@ -3165,7 +3165,7 @@
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/180x120-2000x1333.jpg",
             "bgColor": "#3d8eb9",
             "bgColorRadio": false,
             "bgVideo": {
