@@ -589,7 +589,7 @@
               "size": 0
             }
           },
-          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text1": "",
           "media1": {
             "iconFont": {
               "active": true,
@@ -620,8 +620,8 @@
             }
           },
           "text4": "<a href=\"mailto:support@mobirise.com\">s</a>upport@enlightenedtoyourtotalfreedom.com",
-          "title1": "Categories",
-          "text5": "<li><a class=\"text-white\" href=\"#\">Business</a></li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-danger\" href=\"#\">Real life</a></li><li><a class=\"text-danger\" href=\"#\">Science</a></li><li><i>Tech</i></li>",
+          "title1": "",
+          "text5": "",
           "text6": "<strong>Contacts</strong><br>Email: support@elightenedtoyour totalfreedom.com<br>Phone: +61891211013<br><br><br><br><strong>Address</strong><br>Shelduck Way, Djugun<br>Broome, WA 6725",
           "form": {
             "title": "MESSAGE",
@@ -670,18 +670,18 @@
           },
           "_anchor": "extFooter1-f",
           "_params": {
-            "progress": "80",
+            "progress": "65",
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -913,7 +913,7 @@
               "size": 0
             }
           },
-          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text1": "",
           "media1": {
             "iconFont": {
               "active": true,
@@ -944,8 +944,8 @@
             }
           },
           "text4": "<a href=\"mailto:support@mobirise.com\">s</a>upport@enlightenedtoyourtotalfreedom.com",
-          "title1": "Categories",
-          "text5": "<li><a class=\"text-white\" href=\"#\">Business</a></li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-danger\" href=\"#\">Real life</a></li><li><a class=\"text-danger\" href=\"#\">Science</a></li><li><i>Tech</i></li>",
+          "title1": "",
+          "text5": "",
           "text6": "<strong>Contacts</strong><br>Email: support@elightenedtoyour totalfreedom.com<br>Phone: +61891211013<br><br><br><br><strong>Address</strong><br>Shelduck Way, Djugun<br>Broome, WA 6725",
           "form": {
             "title": "MESSAGE",
@@ -994,18 +994,18 @@
           },
           "_anchor": "extFooter1-1p",
           "_params": {
-            "progress": "80",
+            "progress": "65",
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -1389,7 +1389,7 @@
               "size": 0
             }
           },
-          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text1": "",
           "media1": {
             "iconFont": {
               "active": true,
@@ -1420,8 +1420,8 @@
             }
           },
           "text4": "<a href=\"mailto:support@mobirise.com\">s</a>upport@enlightenedtoyourtotalfreedom.com",
-          "title1": "Categories",
-          "text5": "<li><a class=\"text-white\" href=\"#\">Business</a></li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-danger\" href=\"#\">Real life</a></li><li><a class=\"text-danger\" href=\"#\">Science</a></li><li><i>Tech</i></li>",
+          "title1": "",
+          "text5": "",
           "text6": "<strong>Contacts</strong><br>Email: support@elightenedtoyour totalfreedom.com<br>Phone: +61891211013<br><br><br><br><strong>Address</strong><br>Shelduck Way, Djugun<br>Broome, WA 6725",
           "form": {
             "title": "MESSAGE",
@@ -1470,18 +1470,18 @@
           },
           "_anchor": "extFooter1-1x",
           "_params": {
-            "progress": "80",
+            "progress": "65",
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -1829,7 +1829,7 @@
               "size": 0
             }
           },
-          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text1": "",
           "media1": {
             "iconFont": {
               "active": true,
@@ -1860,8 +1860,8 @@
             }
           },
           "text4": "<a href=\"mailto:support@mobirise.com\">s</a>upport@enlightenedtoyourtotalfreedom.com",
-          "title1": "Categories",
-          "text5": "<li><a class=\"text-white\" href=\"#\">Business</a></li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-danger\" href=\"#\">Real life</a></li><li><a class=\"text-danger\" href=\"#\">Science</a></li><li><i>Tech</i></li>",
+          "title1": "",
+          "text5": "",
           "text6": "<strong>Contacts</strong><br>Email: support@elightenedtoyour totalfreedom.com<br>Phone: +61891211013<br><br><br><br><strong>Address</strong><br>Shelduck Way, Djugun<br>Broome, WA 6725",
           "form": {
             "title": "MESSAGE",
@@ -1910,18 +1910,18 @@
           },
           "_anchor": "extFooter1-25",
           "_params": {
-            "progress": "80",
+            "progress": "65",
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -2320,7 +2320,7 @@
               "size": 0
             }
           },
-          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text1": "",
           "media1": {
             "iconFont": {
               "active": true,
@@ -2351,8 +2351,8 @@
             }
           },
           "text4": "<a href=\"mailto:support@mobirise.com\">s</a>upport@enlightenedtoyourtotalfreedom.com",
-          "title1": "Categories",
-          "text5": "<li><a class=\"text-white\" href=\"#\">Business</a></li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-danger\" href=\"#\">Real life</a></li><li><a class=\"text-danger\" href=\"#\">Science</a></li><li><i>Tech</i></li>",
+          "title1": "",
+          "text5": "",
           "text6": "<strong>Contacts</strong><br>Email: support@elightenedtoyour totalfreedom.com<br>Phone: +61891211013<br><br><br><br><strong>Address</strong><br>Shelduck Way, Djugun<br>Broome, WA 6725",
           "form": {
             "title": "MESSAGE",
@@ -2401,18 +2401,18 @@
           },
           "_anchor": "extFooter1-2d",
           "_params": {
-            "progress": "80",
+            "progress": "65",
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
@@ -3078,7 +3078,7 @@
               "size": 0
             }
           },
-          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text1": "",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont-company-contacts3",
@@ -3110,8 +3110,8 @@
             }
           },
           "text4": "<a href=\"mailto:support@mobirise.com\">s</a>upport@enlightenedtoyourtotalfreedom.com",
-          "title1": "Categories",
-          "text5": "<li><a class=\"text-white\" href=\"#\">Business</a></li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-danger\" href=\"#\">Real life</a></li><li><a class=\"text-danger\" href=\"#\">Science</a></li><li><i>Tech</i></li>",
+          "title1": "",
+          "text5": "",
           "text6": "<strong>Contacts</strong><br>Email: support@elightenedtoyour totalfreedom.com<br>Phone: +61891211013<br><br><br><br><strong>Address</strong><br>Shelduck Way, Djugun<br>Broome, WA 6725",
           "form": {
             "title": "MESSAGE",
@@ -3160,18 +3160,18 @@
           },
           "_anchor": "extFooter1-2l",
           "_params": {
-            "progress": "80",
+            "progress": "65",
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#3d8eb9",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#000",
