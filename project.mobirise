@@ -625,7 +625,7 @@
           "text6": "<strong>Contacts</strong><br>Email: support@elightenedtoyour totalfreedom.com<br>Phone: +61891211013<br><br><br><br><strong>Address</strong><br>Shelduck Way, Djugun<br>Broome, WA 6725",
           "form": {
             "title": "MESSAGE",
-            "action": "bzrnorman@gmail.com",
+            "action": "enlightenedfirst@gmail.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -647,7 +647,7 @@
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "message"
               }
             }
           },
@@ -2099,7 +2099,12 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>You can contact us through any one of the below channels.</p><p><br></p><p>a. First &nbsp;through our email address &nbsp; -- &nbsp; enlightened@prosperinggodsway.com</p><p><br></p><p>b. Secondly through our facebook page &nbsp; - &nbsp; &nbsp; &nbsp;www.facebook.com/enlightened/</p><p><br></p><p>c. Thirdly, through our linkedin page &nbsp; &nbsp;- &nbsp; &nbsp;www.linkedin.com/enlightened/</p>"
+          "text": "<p><b>You can contact us through any one of the below channels.</b></p><p><b><br></b></p><p><b>a. First &nbsp;through our email address &nbsp; -- &nbsp; enlightenedfirst@gmail.com</b></p><p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---enlightened@prosperinggodsway.com</b></p><p><b>b. Secondly through our facebook page &nbsp; - &nbsp; &nbsp; &nbsp;www.facebook.com/enlightened/</b></p><p><b><br></b></p><p><b>c. Thirdly, through our linkedin page &nbsp; &nbsp;- &nbsp; &nbsp;www.linkedin.com/enlightened/</b></p>",
+          "_styles": {
+            "P": {
+              "font-size": "22px"
+            }
+          }
         },
         {
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
@@ -2128,7 +2133,12 @@
             "showText": true
           },
           "title": "Our Contact Information;",
-          "text": "On normal days schedules, support tickets and complains Or responding to any enquiries made inline with business ties.<br><br>Enlightened To Your Total Freedom can be contacted either through <br>a. email; &nbsp; - &nbsp; admin@prosperinggodsway.com<br>b; telephone; &nbsp;- &nbsp;+61891211013<br><br>And through our major social networks in the likes of;<br><span style=\"font-size: 1rem; line-height: 1.5;\">&nbsp;a; facebook; &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; &nbsp;http://facebook.com/enlightenedtoyourtotalfreedom/</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">&nbsp;b;linkedin &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp; &nbsp;http://linkedin.com/enlightenedtoyourtotalfreedom/</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">c; youtube &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp; &nbsp;http://youtube.com/enlightenedtoyourtotalfreedom/</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">&nbsp;</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">And in most cases response is up within 48 hours minimum -72 hours at the most..</span><br>"
+          "text": "On normal days schedules, support tickets and complains Or responding to any enquiries made inline with business ties.<br><br>Enlightened To Your Total Freedom can be contacted either through <br>a. email; &nbsp; - &nbsp; admin@prosperinggodsway.com<br>b; telephone; &nbsp;- &nbsp;+61891211013<br><br>And through our major social networks in the likes of;<br><span style=\"font-size: 1rem; line-height: 1.5;\">&nbsp;a; facebook; &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; &nbsp;http://facebook.com/enlightenedtoyourtotalfreedom/</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">&nbsp;b;linkedin &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp; &nbsp;http://linkedin.com/enlightenedtoyourtotalfreedom/</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">c; youtube &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp; &nbsp;http://youtube.com/enlightenedtoyourtotalfreedom/</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">&nbsp;</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">And in most cases response is up within 48 hours minimum -72 hours at the most..</span><br>",
+          "_styles": {
+            "P": {
+              "color": "#2969b0"
+            }
+          }
         },
         {
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
