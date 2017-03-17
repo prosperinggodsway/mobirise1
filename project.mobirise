@@ -1065,6 +1065,24 @@
           "text": "Our teams on the Help Desk will be there for any tickets raised to attend to all your needs and complains.<br><br>In normal off peak periods we respond to raised issues within the space of &nbsp;48 hours on the least, and 72 hours on the most <br>depending on the pressures of the day.<br><br>All you do is to hit the support tab on the bottom of the website and you will be brought to the Support page where you will be able to <br>raise your ticket to us.."
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-39",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "1",
+            "bgColor": "#a38f84"
+          },
+          "text": "<blockquote>The Support/Help Desk normally response within 48 - 72 hours of your ticket raising.</blockquote>",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-size": "22px"
+            }
+          }
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -1076,31 +1094,13 @@
           "_name": "header3",
           "_anchor": "header3-37",
           "_params": {
-            "paddingTop": "6",
+            "paddingTop": "1",
             "paddingBottom": "0",
             "bgColor": "#faaf40",
             "showMeta": true
           },
           "title": "Support/Help-Desk",
           "meta": ""
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content2",
-          "_anchor": "content2-39",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgColor": "#fff"
-          },
-          "text": "<blockquote>The Support/Help Desk normally response within 48 - 72 hours of your ticket raising.</blockquote>",
-          "_styles": {
-            "BLOCKQUOTE": {
-              "font-size": "22px"
-            }
-          }
         },
         {
           "_tags": [
