@@ -759,18 +759,20 @@ h6,
   color: #137aec;
   font-size: 30px;
 }
-#contacts3-c STRONG {
-  color: #0e0e0e;
+#social-buttons1-3k .mbr-section-title {
+  color: #fac51c;
 }
-#contacts3-c SPAN {
-  color: #da8b15;
-}
-#extFooter1-f .mbr-section-title {
-  color: #e89111;
+#contacts1-3m STRONG {
   font-size: 25px;
+  color: #e62814;
 }
-#extFooter1-f UL {
-  color: #eab50e;
+#contacts1-3m P {
+  font-size: 14px;
+  color: #2969b0;
+}
+#contacts1-3m B {
+  color: #2969b0;
+  font-size: 18px;
 }
 #menu-1i .hide-buttons .nav-btn {
   display: none !important;
@@ -1119,6 +1121,9 @@ h6,
 }
 #contacts3-2c SPAN {
   color: #da8b15;
+}
+#contacts3-2c .list-group-text {
+  font-size: 16px;
 }
 #extFooter1-2d .mbr-section-title {
   color: #e89111;
