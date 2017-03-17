@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Enlightened To Your Total Freedom",
-    "currentPage": "index.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -1065,19 +1065,6 @@
           "text": "Our teams on the Help Desk will be there for any tickets raised to attend to all your needs and complains.<br><br>In normal off peak periods we respond to raised issues within the space of &nbsp;48 hours on the least, and 72 hours on the most <br>depending on the pressures of the day.<br><br>All you do is to hit the support tab on the bottom of the website and you will be brought to the Support page where you will be able to <br>raise your ticket to us.."
         },
         {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content2",
-          "_anchor": "content2-38",
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "0",
-            "bgColor": "#fff"
-          },
-          "text": "<blockquote>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a All your software needs and complains are taken care of for you in this department. Our support and help desk is always there for all your enquiries and quiiries.</blockquote>"
-        },
-        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -1089,7 +1076,7 @@
           "_name": "header3",
           "_anchor": "header3-37",
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": "6",
             "paddingBottom": "0",
             "bgColor": "#faaf40",
             "showMeta": true
@@ -1104,11 +1091,16 @@
           "_name": "content2",
           "_anchor": "content2-39",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "text": "<blockquote>The Support/Help Desk normally response within 48 - 72 hours of your ticket raising.</blockquote>"
+          "text": "<blockquote>The Support/Help Desk normally response within 48 - 72 hours of your ticket raising.</blockquote>",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-size": "22px"
+            }
+          }
         },
         {
           "_tags": [
@@ -1121,7 +1113,12 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>All you have to do is raise your ticket through the Support/Help-Desk underneath this website and you will be taken right through the whole process..</p>"
+          "text": "<p>All you have to do is raise your ticket through the Support/Help-Desk underneath this website and you will be taken right through the whole process..</p>",
+          "_styles": {
+            "P": {
+              "font-size": "22px"
+            }
+          }
         },
         {
           "_inherit": "features3",
