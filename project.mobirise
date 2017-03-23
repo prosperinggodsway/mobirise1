@@ -1,331 +1,115 @@
 {
   "settings": {
-    "name": "Popeye Marina",
-    "currentPage": "page3.html",
+    "name": "Prospering God`s Way Studios",
+    "currentPage": "page4.html",
     "theme": {
-      "name": "colorm",
-      "title": "ColorM",
+      "name": "mobirise3",
+      "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#f39c12",
-        "buttonsColor": "#000000",
-        "secondaryColor": "#9b59b6",
-        "successColor": "#2ecc71",
-        "infoColor": "#3498db",
-        "warningColor": "#f1c40f",
-        "dangerColor": "#e74c3c",
-        "titleFont": "Arvo",
-        "subtitleFont": "Montserrat",
-        "textFont": "Open Sans",
+        "primaryColor": "#2969b0",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true,
+        "isRtl": true
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 35,
+    "uniqCompNum": 51,
     "versionPublish": "3.12.1"
   },
   "pages": {
-    "popeyemarinaindex.html": {
+    "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "",
         "meta_descr": "",
-        "header_custom": "Popeye Marina",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "content5",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "font-size": "20px",
-              "color": "#000000"
-            },
-            ".mbr-section-title": {
-              "color": "#2980b9"
-            }
-          },
-          "_anchor": "content5-3",
+          "_name": "menu",
+          "_anchor": "menu-1",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
-            "bgColor": "#ecf0f1",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3498db",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "Popeye marina",
-          "caption": "<p>Popeye Marina is a privately owned corporation that rents boat slips and&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">provides boat services on Olive Oyl Lakes, a large inland lake located in the&nbsp;</span><span style=\"font-size: 1rem; line-height: 1.85em;\">Brutus area. Popeye is the largest of the three marinas on the lake.&nbsp;</span></p>"
-        },
-        {
-          "alias": "wowslider",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "wowslider",
-          "_params": {
-            "customSize": false,
-            "customWidth": "1600",
-            "customHeight": "1080",
-            "size": "800x600",
-            "slides": [
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina5-2000x1930.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina5-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina5-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina1-642x461.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina1-800x600.jpg",
-                "title": "title 2",
-                "text": "text 2",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina1-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%204-2000x1797.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-4-800x600.jpg",
-                "title": "title 3",
-                "text": "text 3",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-4-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%207-2000x2216.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-7-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-7-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": true,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              }
-            ],
-            "theme": "aqua",
-            "bgColor": "#16a085",
-            "animType": "carousel",
-            "autoplay": true,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "fullScreen": true,
-            "showBullets": false,
-            "timeout": 2,
-            "duration": 2,
-            "height": "600",
-            "width": "800",
-            "responsive": "1",
-            "showCaptions": false,
-            "captionsEffect": "slide",
-            "hideControls": false
-          },
-          "_anchor": "wowslider-4",
-          "articleLayout": false
-        },
-        {
-          "_styles": {
-            ".mbr-section-title": {
-              "font-weight": "700",
-              "color": "#ecf0f1"
-            },
-            ".display-6": {
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "font-weight": "400",
-              "color": "#fff"
-            },
-            ".mbr-cards-row": {
-              "margin-top": "40px"
-            },
-            ".display-5": {
-              "color": "#f39c12",
-              "font-size": "32px"
-            }
-          },
-          "title1": "Bootstrap 4",
-          "title2": "Responsive",
-          "title3": "Web Fonts",
-          "title4": "Unlimited Sites",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features15",
-          "_anchor": "features15-2",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/01.jpg",
-            "bgColor": "#2980b9",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#434350",
-            "showTitle": true,
-            "showImages": true,
-            "columns": 3,
-            "showTitles": true,
-            "ShowTexts": true
-          },
-          "title": "Popeye Marina is the largest of the three marinas on the large inland lake located in the Brutus area.",
-          "media": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/marina1-642x461.jpg",
-              "class": "card-img-top",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "subtitle1": "Popeye Marina Project Use Case Diagram",
-          "caption1": "Popeye Marina would like to have an automated system to track their<br>customers, the slips they lease, and the boats in the slips. Initially, the<br>system will simply maintain basic information for customers, slips and boats,&nbsp;and perform day-to-day business tasks.&nbsp;<br>",
-          "subtitle2": "A dock contains slips",
-          "caption2": "They want to be able to use the system to&nbsp;generate bills for both slip leases and boat services, record payments, send<br>late notices, and produce accounts receivable and other accounting reports.&nbsp;<br>",
-          "subtitle3": "Popeye Marina Project Class Diagram",
-          "caption3": "These tasks include creating a lease,<br>computing the lease amount for a slip, and assigning a boat to a slip. The<br>marina wants to use the system to search for information, such as vacant<br>slips and slips leased to a specific customer<br>",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
-        },
-        {
-          "_styles": {
-            ".mbr-section-subtitle, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "20px",
-              "margin-top": "0"
-            }
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-6",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#16a085",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444",
+            "bgColor": "#475577",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
             "logo": true,
-            "showTitles": true,
-            "showButtons": true
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/popeye-aa-261x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -335,329 +119,314 @@
               "size": 0
             }
           },
-          "title1": "",
-          "text11": "Popular",
-          "text12": "Trending",
-          "text13": "Catalog",
-          "text14": "",
-          "text15": "",
-          "title2": "<a href=\"popeyemarinaindex.html\">Home</a><br><a href=\"popeyemarinaindex.html\">Slip Booking<br></a>",
-          "text21": "",
-          "text22": "",
-          "text23": "",
-          "text24": "",
-          "text25": "",
-          "title3": "About Us<br>Contact Us<br><br>",
-          "text31": "",
-          "text32": "",
-          "text33": "",
-          "text34": "",
-          "text35": "",
-          "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
-          "text": "Copyright (c) 2016 Popeye Marina."
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Prospering God`s <br>Way Studios</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-credit-card mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"index.html\">HOME&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page1.html\">STATION SHOWS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page2.html\">IMAGERY GALLERY</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page3.html\">CUSTOMERS SERVICE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page4.html\">SUPPORT</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "font-size": "25px",
+              "color": "#ef0906"
+            },
+            "P": {
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-c",
+          "_params": {
+            "imageSize": "70",
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#2969b0",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Live Online Shows&nbsp;",
+          "text": "Welcome to our Radio Station, where all our Daily Shows and Events are lined up so that all our most valued listeners &nbsp;will benefit from choosing what program they would like to get entertainment from",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">CONTACT US</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures2",
+          "_anchor": "extFeatures2-e",
+          "_params": {
+            "elements": "4",
+            "iconsColor": "#2969b0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures2_bg.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.1,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showIcons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "central-image",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title": "WELCOME TO OUR GOSPEL RADIO STATION&nbsp;",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-extFeatures2",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#2c82c9"
+            }
+          },
+          "title1": "Drive Through Show",
+          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "youtube-play",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "#2c82c9"
+            }
+          },
+          "title2": "Mid-Day Music Show",
+          "text2": "Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers projects.",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#27aae0"
+            }
+          },
+          "title3": "Country Music",
+          "text3": "Key differences from traditional builders: Minimalistic, extremely easy-to-use interface Mobile-friendliness, latest website blocks and techniques \"out-the-box\"  Free for commercial and non-profit use",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#27aae0"
+            }
+          },
+          "title4": "Great Worship Tracks",
+          "text4": "Create awesome mobile-friendly websites. No coding and free.",
+          "_styles": {
+            ".etl-icon": {
+              "color": "#2969b0"
+            },
+            "H2": {
+              "font-size": "36px",
+              "color": "#f97352"
+            },
+            ".intro-box h4": {
+              "color": "#fac51c"
+            },
+            "P": {
+              "font-size": "17px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-3",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2969b0",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          }
         }
       ]
     },
     "page1.html": {
       "settings": {
-        "title": "About Us",
+        "title": "STATION SHOWS",
         "meta_descr": "",
-        "header_custom": "About Us",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "content5",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "font-size": "20px",
-              "color": "#000000"
-            },
-            ".mbr-section-title": {
-              "color": "#2980b9"
-            }
-          },
-          "_anchor": "content5-7",
+          "_name": "menu",
+          "_anchor": "menu-i",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
-            "bgColor": "#ecf0f1",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3498db",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "Popeye marina",
-          "caption": "<p>Popeye Marina is a privately owned corporation that rents boat slips and&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">provides boat services on Olive Oyl Lakes, a large inland lake located in the&nbsp;</span><span style=\"font-size: 1rem; line-height: 1.85em;\">Brutus area. Popeye is the largest of the three marinas on the lake.&nbsp;</span></p>"
-        },
-        {
-          "alias": "wowslider",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "wowslider",
-          "_params": {
-            "customSize": false,
-            "customWidth": "1600",
-            "customHeight": "1080",
-            "size": "800x600",
-            "slides": [
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina5-2000x1930.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina5-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina5-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina1-642x461.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina1-800x600.jpg",
-                "title": "title 2",
-                "text": "text 2",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina1-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%204-2000x1797.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-4-800x600.jpg",
-                "title": "title 3",
-                "text": "text 3",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-4-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%207-2000x2216.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-7-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-7-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": true,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              }
-            ],
-            "theme": "aqua",
-            "bgColor": "#16a085",
-            "animType": "carousel",
-            "autoplay": true,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "fullScreen": true,
-            "showBullets": false,
-            "timeout": 2,
-            "duration": 2,
-            "height": "600",
-            "width": "800",
-            "responsive": "1",
-            "showCaptions": false,
-            "captionsEffect": "slide",
-            "hideControls": false
-          },
-          "_anchor": "wowslider-8",
-          "articleLayout": false
-        },
-        {
-          "_styles": {
-            ".mbr-section-title": {
-              "font-weight": "700",
-              "color": "#ecf0f1"
-            },
-            ".display-6": {
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "font-weight": "400",
-              "color": "#fff"
-            },
-            ".mbr-cards-row": {
-              "margin-top": "40px"
-            },
-            ".display-5": {
-              "color": "#f39c12",
-              "font-size": "32px"
-            }
-          },
-          "title1": "Bootstrap 4",
-          "title2": "Responsive",
-          "title3": "Web Fonts",
-          "title4": "Unlimited Sites",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features15",
-          "_anchor": "features15-9",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/01.jpg",
-            "bgColor": "#2980b9",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#434350",
-            "showTitle": true,
-            "showImages": true,
-            "columns": 3,
-            "showTitles": true,
-            "ShowTexts": true
-          },
-          "title": "Popeye Marina is the largest of the three marinas on the large inland lake located in the Brutus area.",
-          "media": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/marina1-642x461.jpg",
-              "class": "card-img-top",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "subtitle1": "Popeye Marina Project Use Case Diagram",
-          "caption1": "Popeye Marina would like to have an automated system to track their<br>customers, the slips they lease, and the boats in the slips. Initially, the<br>system will simply maintain basic information for customers, slips and boats,&nbsp;and perform day-to-day business tasks.&nbsp;<br>",
-          "subtitle2": "A dock contains slips",
-          "caption2": "They want to be able to use the system to&nbsp;generate bills for both slip leases and boat services, record payments, send<br>late notices, and produce accounts receivable and other accounting reports.&nbsp;<br>",
-          "subtitle3": "Popeye Marina Project Class Diagram",
-          "caption3": "These tasks include creating a lease,<br>computing the lease amount for a slip, and assigning a boat to a slip. The<br>marina wants to use the system to search for information, such as vacant<br>slips and slips leased to a specific customer<br>",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
-        },
-        {
-          "_styles": {
-            ".mbr-section-subtitle, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "20px",
-              "margin-top": "0"
-            }
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-a",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#16a085",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444",
+            "bgColor": "#475577",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
             "logo": true,
-            "showTitles": true,
-            "showButtons": true
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/popeye-aa-261x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -667,75 +436,521 @@
               "size": 0
             }
           },
-          "title1": "",
-          "text11": "Popular",
-          "text12": "Trending",
-          "text13": "Catalog",
-          "text14": "",
-          "text15": "",
-          "title2": "<a href=\"popeyemarinaindex.html\">Home</a><br><a href=\"popeyemarinaindex.html\">Slip Booking<br></a>",
-          "text21": "",
-          "text22": "",
-          "text23": "",
-          "text24": "",
-          "text25": "",
-          "title3": "About Us<br>Contact Us<br><br>",
-          "text31": "",
-          "text32": "",
-          "text33": "",
-          "text34": "",
-          "text35": "",
-          "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
-          "text": "Copyright (c) 2016 Popeye Marina."
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Prospering God`s <br>Way Studios</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-credit-card mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"index.html\">HOME&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page1.html\">STATION SHOWS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page2.html\">IMAGERY GALLERY</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page3.html\">CUSTOMERS SERVICE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page4.html\">SUPPORT</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "font-size": "25px"
+            },
+            "P": {
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-j",
+          "_params": {
+            "imageSize": "70",
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#2969b0",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Live Online Shows",
+          "text": "Welcome to our Radio Station where all our Daily Shows and Events are lined up so that all our most valued listeners will benefit from choosing what program they would like to get their soul entertainment from",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">CONTACT US</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures2",
+          "_styles": {
+            ".etl-icon": {
+              "color": "#2969b0"
+            },
+            "H2": {
+              "font-size": "36px",
+              "color": "#f97352"
+            },
+            ".intro-box h4": {
+              "color": "#fac51c"
+            },
+            "P": {
+              "font-size": "17px"
+            }
+          },
+          "_anchor": "extFeatures2-1b",
+          "_params": {
+            "elements": "4",
+            "iconsColor": "#2969b0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/Dell/AppData/Local/Mobirise.com/Mobirise/projectData/img_extFeatures2_bg.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.1,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showIcons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "central-image",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x6923.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title": "&nbsp;WELCOME TO OUR DAILY EVENTS",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-extFeatures2",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#2c82c9"
+            }
+          },
+          "title1": "Coffee @ 10",
+          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "youtube-play",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "#2c82c9"
+            }
+          },
+          "title2": "News At Six",
+          "text2": "Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers projects.",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#27aae0"
+            }
+          },
+          "title3": "Sports Hour&nbsp;",
+          "text3": "Key differences from traditional builders: Minimalistic, extremely easy-to-use interface Mobile-friendliness, latest website blocks and techniques \"out-the-box\"  Free for commercial and non-profit use",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#27aae0"
+            }
+          },
+          "title4": "All Night Sounds",
+          "text4": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "36px",
+              "color": "#5411ed"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1e",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#f97352",
+            "showMeta": true
+          },
+          "title": "SCROLL FURTHER DOWN FOR OUR RADIO SHOES",
+          "meta": ""
+        },
+        {
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">CONTACT US</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures2",
+          "_styles": {
+            ".etl-icon": {
+              "color": "#2969b0"
+            },
+            "H2": {
+              "font-size": "36px",
+              "color": "#f97352"
+            },
+            ".intro-box h4": {
+              "color": "#fac51c"
+            },
+            "P": {
+              "font-size": "17px"
+            }
+          },
+          "_anchor": "extFeatures2-l",
+          "_params": {
+            "elements": "4",
+            "iconsColor": "#2969b0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures2_bg.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.1,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showIcons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "central-image",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title": "&nbsp;WELCOME TO OUR DAILY SHOWS",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-extFeatures2",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#2c82c9"
+            }
+          },
+          "title1": "Sunrise Show",
+          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "youtube-play",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "#2c82c9"
+            }
+          },
+          "title2": "Breakfast Show at Seven&nbsp;",
+          "text2": "Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers projects.",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#27aae0"
+            }
+          },
+          "title3": "Mid-Day Music",
+          "text3": "Key differences from traditional builders: Minimalistic, extremely easy-to-use interface Mobile-friendliness, latest website blocks and techniques \"out-the-box\"  Free for commercial and non-profit use",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#27aae0"
+            }
+          },
+          "title4": "Drive Through Show",
+          "text4": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-m",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2969b0",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          }
         }
       ]
     },
     "page2.html": {
       "settings": {
-        "title": "Contact Us",
+        "title": "IMAGERY GALLERY",
         "meta_descr": "",
-        "header_custom": "Contact Us",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "content5",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "font-size": "20px",
-              "color": "#000000"
+          "_name": "menu",
+          "_anchor": "menu-n",
+          "_params": {
+            "bgColor": "#475577",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
             },
-            ".mbr-section-title": {
-              "color": "#2980b9"
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
             }
           },
-          "_anchor": "content5-b",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Prospering God`s <br>Way Studios</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-credit-card mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"index.html\">HOME&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page1.html\">STATION SHOWS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page2.html\">IMAGERY GALLERY</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page3.html\">CUSTOMERS SERVICE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page4.html\">SUPPORT</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "font-size": "25px"
+            },
+            "P": {
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-o",
           "_params": {
-            "paddingTop": "0",
+            "imageSize": "70",
+            "paddingTop": "3",
             "paddingBottom": "0",
-            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
-            "bgColor": "#ecf0f1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3498db",
+            "overlayOpacity": "0.8",
+            "overlayColor": "#2969b0",
+            "inverse": true,
             "showTitle": true,
-            "showCaption": true
+            "showText": true,
+            "showButtons": false
           },
-          "title": "Popeye marina",
-          "caption": "<p>Popeye Marina is a privately owned corporation that rents boat slips and&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">provides boat services on Olive Oyl Lakes, a large inland lake located in the&nbsp;</span><span style=\"font-size: 1rem; line-height: 1.85em;\">Brutus area. Popeye is the largest of the three marinas on the lake.&nbsp;</span></p>"
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Live Online Shows",
+          "text": "Welcome to our Radio Station where all our Daily Shows and Events are lined up so that all our most valued listeners will benefit from choosing what program they would like to get their soul enterainment from",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "alias": "wowslider",
@@ -747,122 +962,228 @@
             "customSize": false,
             "customWidth": "1600",
             "customHeight": "1080",
-            "size": "800x600",
+            "size": "1024x576",
             "slides": [
               {
-                "src": "@PROJECT_PATH@/assets/images/marina5-2000x1930.jpg",
-                "active": false,
+                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina5-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina5-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png",
+                "active": true
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/marina1-642x461.jpg",
-                "active": false,
+                "src": "@PROJECT_PATH@/assets/images/customer-service-2000x1120.jpg",
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina1-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/customer-service-1024x576.jpg",
                 "title": "title 2",
                 "text": "text 2",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina1-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/customer-service-85x48.png",
+                "active": false
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/marina%204-2000x1797.jpg",
-                "active": false,
+                "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-4-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/my-radio-station-logo-1024x576.jpg",
                 "title": "title 3",
                 "text": "text 3",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-4-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-logo-85x48.png",
+                "active": false
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/marina%207-2000x2216.jpg",
+                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-7-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-7-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
+                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
+                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
+                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
+                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
+              }
+            ],
+            "theme": "studio",
+            "bgColor": "#7e9b9f",
+            "animType": "carousel_basic",
+            "autoplay": true,
+            "paddingTop": 0,
+            "paddingBottom": "1",
+            "fullScreen": true,
+            "showBullets": false,
+            "timeout": "3",
+            "duration": "2.5",
+            "height": "576",
+            "width": "1024",
+            "responsive": "1",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": false
+          },
+          "_anchor": "wowslider-12",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#0fec4f"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1d",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgColor": "#2969b0",
+            "showMeta": true
+          },
+          "title": "Images are a TRUE picture of an Organisation",
+          "meta": "<b>By Dr.Norman Mike M</b>"
+        },
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/1c--2000x1193.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/1c-1024x576.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/1c-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/1a-2000x1193.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/1a-1024x576.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/1a-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/1e--2000x1193.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/1e-1024x576.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/1e-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/1b--2000x1193.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/1b-1024x576.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/1b-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/1d--2000x1193.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/1d-1024x576.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/1d-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/1f-2000x1193.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/1f-1024x576.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/1f-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/1g-2000x1193.jpg",
                 "active": true,
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/marina%203-2000x1592.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/marina-3-800x600.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/marina-3-85x48.png"
+                "image": "@PROJECT_PATH@/assets/images/1g-1024x576.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/1g-85x48.png"
               }
             ],
-            "theme": "aqua",
-            "bgColor": "#16a085",
-            "animType": "carousel",
+            "theme": "boundary",
+            "bgColor": "#3d8eb9",
+            "animType": "domino",
             "autoplay": true,
             "paddingTop": 0,
             "paddingBottom": 0,
@@ -870,300 +1191,147 @@
             "showBullets": false,
             "timeout": 2,
             "duration": 2,
-            "height": "600",
-            "width": "800",
+            "height": "576",
+            "width": "1024",
             "responsive": "1",
             "showCaptions": false,
             "captionsEffect": "slide",
             "hideControls": false
           },
-          "_anchor": "wowslider-c",
+          "_anchor": "wowslider-13",
           "articleLayout": false
         },
         {
-          "_styles": {
-            ".mbr-section-title": {
-              "font-weight": "700",
-              "color": "#ecf0f1"
-            },
-            ".display-6": {
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "font-weight": "400",
-              "color": "#fff"
-            },
-            ".mbr-cards-row": {
-              "margin-top": "40px"
-            },
-            ".display-5": {
-              "color": "#f39c12",
-              "font-size": "32px"
-            }
-          },
-          "title1": "Bootstrap 4",
-          "title2": "Responsive",
-          "title3": "Web Fonts",
-          "title4": "Unlimited Sites",
-          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "features15",
-          "_anchor": "features15-d",
+          "_name": "contacts1",
+          "_anchor": "contacts1-r",
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "0",
-            "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/01.jpg",
-            "bgColor": "#2980b9",
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2969b0",
             "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#434350",
-            "showTitle": true,
-            "showImages": true,
-            "columns": 3,
-            "showTitles": true,
-            "ShowTexts": true
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
           },
-          "title": "Popeye Marina is the largest of the three marinas on the large inland lake located in the Brutus area.",
-          "media": {
+          "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/marina1-642x461.jpg",
-              "class": "card-img-top",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
+              "width": 128,
               "active": true,
               "link": "",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
-            }
-          },
-          "subtitle1": "Popeye Marina Project Use Case Diagram",
-          "caption1": "Popeye Marina would like to have an automated system to track their<br>customers, the slips they lease, and the boats in the slips. Initially, the<br>system will simply maintain basic information for customers, slips and boats,&nbsp;and perform day-to-day business tasks.&nbsp;<br>",
-          "subtitle2": "A dock contains slips",
-          "caption2": "They want to be able to use the system to&nbsp;generate bills for both slip leases and boat services, record payments, send<br>late notices, and produce accounts receivable and other accounting reports.&nbsp;<br>",
-          "subtitle3": "Popeye Marina Project Class Diagram",
-          "caption3": "These tasks include creating a lease,<br>computing the lease amount for a slip, and assigning a boat to a slip. The<br>marina wants to use the system to search for information, such as vacant<br>slips and slips leased to a specific customer<br>",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
-        },
-        {
-          "_styles": {
-            ".mbr-section-subtitle, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "20px",
-              "margin-top": "0"
-            }
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-e",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#16a085",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444",
-            "logo": true,
-            "showTitles": true,
-            "showButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/popeye-aa-261x128.jpg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "",
-              "title": "",
-              "linkInNewWindow": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
               "size": 0
             }
           },
-          "title1": "",
-          "text11": "Popular",
-          "text12": "Trending",
-          "text13": "Catalog",
-          "text14": "",
-          "text15": "",
-          "title2": "<a href=\"popeyemarinaindex.html\">Home</a><br><a href=\"popeyemarinaindex.html\">Slip Booking<br></a>",
-          "text21": "",
-          "text22": "",
-          "text23": "",
-          "text24": "",
-          "text25": "",
-          "title3": "About Us<br>Contact Us<br><br>",
-          "text31": "",
-          "text32": "",
-          "text33": "",
-          "text34": "",
-          "text35": "",
-          "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
-          "text": "Copyright (c) 2016 Popeye Marina."
+          "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          }
         }
       ]
     },
     "page3.html": {
       "settings": {
-        "title": "Slip Booking ",
+        "title": "CUSTOMER SERVICE",
         "meta_descr": "",
-        "header_custom": "Slip Booking",
-        "footer_custom": "\n<!DOCTYPE html>\n<html><head><meta charset=\"UTF-8\"/>\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=9\" />\n<meta name=\"viewport\" content=\"width=device-width; initial-scale=0.5, maximum-scale=1.0, minimum-scale=0.5; \" /><title>Zoho Creator&nbsp;-&nbsp;Popeye Marina Order Management</title>\n<link href=\"https://css.zohostatic.com/creator/ZOHOCREATOR_REVIEWED_Mar_17_2017_5/images/database_fav_small.ico\" rel=\"SHORTCUT ICON\"/>\n<style media=\"screen\">\n.zc-body-init{\noverflow: hidden;\n} \n.zc_loader_container\n{\nbackground: #f5f5f5;\nposition: fixed;\nwidth: 100%;\nheight: 100%;\ntop: 0;\nbottom: 0px;\nright: 0;\nleft: 0;\nz-index:99999;\n}\n.zc_initial_loader\n{\nwidth: 100%;\nposition: absolute;\ntop:50%;\nleft:50%;\nmargin-top: -30px;\ntext-align: center;\n-moz-transform: translate(-50%,-50%);\n-ms-transform: translate(-50%,-50%);\n-webkit-transform: translate(-50%,-50%);\ntransform: translate(-50%,-50%);\n}\n.zc_initial_loader span\n{\nfont-size: 22px;\nfont-family: arial;\nletter-spacing: 1px;\ndisplay: block;\npadding: 0 20px;\ntext-transform: uppercase;\ncolor: #000;\nline-height: 30px;\n}\n.zc_initial_loader .zc_initial_progess\n{\nwidth: 350px;\nheight: 2px;\nborder-radius: 2px;\nmargin-top: 30px;\nbackground: #e0e0e0;\nleft:50%;\n-moz-transform: translatex(-50%);\n-ms-transform: translatex(-50%);\n-webkit-transform: translatex(-50%);\ntransform: translatex(-50%);\nposition: relative;\n}\n.zc_initial_loader .zc_initial_progess .zc_on_loading\n{\ncontent: '';\nposition: absolute;\nwidth: 0%;\nbackground: #5e6163;\nheight: 100%;\nleft:0;\n-webkit-animation: progress 200ms forwards linear , progress_forward 300ms 200ms forwards linear;\n-moz-animation: progress 200ms forwards linear , progress_forward 300ms 200ms forwards linear;\n-ms-animation: progress 200ms forwards linear , progress_forward 300ms 200ms forwards linear;\nanimation: progress 200ms forwards linear, progress_forward 300ms 200ms forwards linear;\n}\n@-webkit-keyframes progress_forward {\n0%\n{\nwidth: 50%;\n}\n100%\n{\nwidth: 95%;\n}\n}\n@-moz-keyframes progress_forward {\n0%\n{\nwidth: 50%;\n}\n100%\n{\nwidth: 95%;\n}\n}\n@-ms-keyframes progress progress_forward {\n0%\n{\nwidth: 50%;\n}\n100%\n{\nwidth: 95%;\n}\n}\n@keyframes progress_forward {\n0%\n{\nwidth: 50%;\n}\n100%\n{\nwidth: 95%;\n}\n}\n@-webkit-keyframes progress {\n0%\n{\nwidth: 0%;\n}\n100%\n{\nwidth: 50%;\n}\n}\n@-moz-keyframes progress {\n0%\n{\nwidth: 0%;\n}\n100%\n{\nwidth: 50%;\n}\n}\n@-ms-keyframes progress {\n0%\n{\nwidth: 0%;\n}\n100%\n{\nwidth: 50%;\n}\n}\n@keyframes progress {\n0%\n{\nwidth: 0%;\n}\n100%\n{\nwidth: 50%;\n}\n}\n.zc_initial_loader .zc_initial_progess + .zc_initial_progess\n{\ndisplay: none;\nmargin-top: -2px;\nz-index: 1;\n}\n.zc_initial_loader.complete .zc_initial_progess + .zc_initial_progess\n{\ndisplay: block;\n}\n.zc_initial_loader.complete .zc_initial_progess + .zc_initial_progess .zc_on_loading\n{\n-webkit-animation: progress_complete 0ms forwards linear;\n-moz-animation: progress_complete 0ms forwards linear;\n-ms-animation: progress_complete 0ms forwards linear;\nanimation: progress_complete 0ms forwards linear;\n}\n@-webkit-keyframes progress_complete {\n0%\n{\nwidth: 80%;\n}\n100%\n{\nwidth: 100%;\n}\n}\n@-moz-keyframes progress_complete {\n0%\n{\nwidth: 80%;\n}\n100%\n{\nwidth: 100%;\n}\n}\n@-ms-keyframes progress_complete {\n0%\n{\nwidth: 80%;\n}\n100%\n{\nwidth: 100%;\n}\n}\n@keyframes progress_complete {\n0%\n{\nwidth: 80%;\n}\n100%\n{\nwidth: 100%;\n}\n}\n</style>\n<style type=\"text/css\" name=\"customTheme\">#t3288672000000012005:before{content:\"\\f0e4\";}#t3288672000000012011:before{content:\"\\f044\";}#t3288672000000012015:before{content:\"\\f055\";}#t3288672000000012157:before{content:\"\\f07a\";}#t3288672000000012291:before{content:\"\\f218\";}#t3288672000000012295:before{content:\"\\f217\";}#t3288672000000012389:before{content:\"\\f14a\";}#t3288672000000012401:before{content:\"\\f05e\";}#t3288672000000012417:before{content:\"\\f00c\";}#t3288672000000012457:before{content:\"\\f0c0\";}#t3288672000000012461:before{content:\"\\f234\";}#t3288672000000012633:before{content:\"\\f0c0\";}#t3288672000000012637:before{content:\"\\f234\";}#t3288672000000012759:before{content:\"\\f201\";}#t3288672000000013697:before{content:\"\\f055\";}#t3288672000000013701:before{content:\"\\f055\";}#t3288672000000013825:before{content:\"\\f06a\";}</style>\n<script>function getCookie(keyName){\nif (document.cookie.length>0){\ncookieBegin=document.cookie.indexOf(keyName + \"=\"); //No I18N\nif (cookieBegin!=-1){\ncookieBegin=cookieBegin + keyName.length+1;\ncookieEnd=document.cookie.indexOf(\";\",cookieBegin); //No I18N\nif (cookieEnd==-1){ \ncookieEnd=document.cookie.length;\n}\nreturn unescape(document.cookie.substring(cookieBegin,cookieEnd));\n}\n}\nreturn \"\"; //No I18N\n}\nfunction isNull(value){\nif(!value || value == \"undefined\" || typeof(value) == \"undefined\" || value == \"NULL\" || value == \"null\" || value.length == 0 || value == \"\"){\nreturn true;\n}\nreturn false;\n}\nfunction loadFiles(itemsToLoad) { //don't remove this method from this file\nvar promises = itemsToLoad.map(function(url) {\nreturn loadFile(url);\n});\nreturn Promise.all(promises);    \n}\nfunction loadFile(url){ https://don't remove this method from this file\nreturn new Promise(function(resolve, reject) {\nvar tag, type;\nvar match = url.match(/\\.([^.]+)$/);\nif (match) {\ntype = match[1];\n}\nif (!type) {\ntype = \"js\";  //No I18N\n}\nvar filename = url.split(\"/\");\nfilename = filename[filename.length - 1];\nvar fileid = filename.split(\".\")[0];\nif (type === 'css'){\ntag = document.createElement(\"link\");\ntag.type = 'text/css';\ntag.rel = 'stylesheet';\ntag.href = url;\ntag.id = fileid+\"_\"+type;\n}\nelse if (type === \"js\")\n{\ntag = document.createElement(\"script\");\ntag.type = 'text/javascript';\ntag.defer = true;\ntag.src = url;\ntag.id = fileid+\"_\"+type;\n}\nif (tag) {\ntag.onload = function() {resolve(url)};\ntag.onerror = function() {reject(url)};\ndocument.getElementsByTagName(\"head\")[0].appendChild(tag);\n}\n});\n}</script><script>/* common javascript varaibles used in old client actions*/\ndocument.domain=\"app.zohocreator.com\";\t\nvar googledocurl = \"https://gadgets.zoho.com/gdocs?maxDocs=1&serURL=https://creator.zoho.com/googledocresponse.jsp&bgcolor=EEF6FD&brcolor=AAD1F4&searchColor=3184CE&border=3184CE&hFontColor=FFFFFF\";\t\nvar zohodocurl = \"https://docs.zoho.com/index.do?service=creator\";\t\nvar googlesheeturl = \"https://gadgets.zoho.com/gdocs/sheets?maxDocs=1&serURL=https://creator.zoho.com/googledocresponse.jsp\";\t\nvar clouddocurl = \"https://gadgets.zoho.com/CloudPicker?attachLimit=1&sources=gdrive,zohodocs,skydrive,dropbox,box&originUrl=https://app.zohocreator.com&zservice=zcreator&check=true\";\t\nvar fileCloudUrl = \"https://gadgets.zoho.com/CloudPicker?ZC_PARAMS=&serURL=https://app.zohocreator.com/normanmikem/order-management/gadgetcallback\";\t\nvar ZCGlobal = new function(){\n/* Security related */\nthis.contextName = \"app\"; \nthis.csrfTokenName = \"zccpn\";\t\nthis.csrfToken = isNull(getCookie(\"zccpn\")) ? \"17efccfbee67c6f1d98c42dbc926c452910575d0e17c4e45613081a90dfe601c3883e3984ec810a10bb7dcb30b121f0dbbc2a1cf1efb2e6247f3320fb7a6e752\" : getCookie(\"zccpn\");\t \n/* SharedBy/Scope related */\nthis.scopeName = \"normanmikem\";\nthis.scopeZuid = \"643665937\";\t\nthis.scopeEmail = \"\";\t\n/* Login related */\nthis.loginName = \"normanmikem\";\nthis.loginZuid = \"643664702\";\t\nthis.loginEmail = \"bzrnorman@gmail.com\";\t\n/* App related */\nthis.appLinkName = \"order-management\";\nthis.applicationId = \"3288672000000012003\";\t\nthis.uiDateFormate = \"DD-MMM-YYYY\";  \t\nthis.serverPrefix = \"https://app.zohocreator.com\";\t\nthis.oldliveserver = \"creator.zoho.com\";\t\nthis.newliveserver = \"app.zohocreator.com\";\t\nthis.appurl = this.serverPrefix + \"/\" +  this.scopeName + \"/\" + this.appLinkName + \"/\";\nthis.scheme = \"https\";\t\nthis.isAdmin = true;\t\nthis.isEditSupport = false;\t\nthis.language = \"en\";\t\nthis.appbuilderserverprefix = \"https://creator.zoho.com\";\nthis.servicename = \"zoho\";\n}\n//ZE_Init.needEditorFocus = false;</script><script>var i18n =\n{\n/*Common action keys */\n\"pleasewait\":\"Please wait\", \n\"ok\" : \"Okay\", \n\"yes\" : \"Yes\", \n\"no\" : \"No\", \n\"chatsupportweekends\": \"Our Chat Support is only available Monday-Friday. You can leave us an email to support&#x40;zohocreator.com and we will get back to you soon.\", \n\"replace\":\"Replace\", \n\"submit\":\"Submit\", \n\"cancel\":\"Cancel\", \n\"loading\":\"Loading\", \n\"done\":\"Done\", \n/* Form related keys */\n\"alreadyfileuploaded\" : \"You have already uploaded a file.\", \n\"errormsg\":\"Error occurred. Please refresh the page and try again later.\",\n\"unconfirmeduserpublish\": \"The email address of the application owner is not yet verified. Please verify the email address to publish this component.\", \n\"publicaccessupgrademsg1\":\"Trial and Free edition users are not allowed to publish.\", \n\"publicaccessupgrademsg2\":\"Please contact &lt;a href&#x3d;&#x27;mailto&#x3a;support&#x40;zohocreator.com&#x27;&gt;support&#x40;zohocreator.com&lt;&#x2f;a&gt;\", \n\"publishmaxlimitreachedmsg1\":\"Maximum number of components allowed to publish for your account has been exceeded. \", \n\"publishmaxlimitreachedmsg2\":\"Please contact &lt;a href&#x3d;&#x27;mailto&#x3a;support&#x40;zohocreator.com&#x27;&gt;support&#x40;zohocreator.com&lt;&#x2f;a&gt;\", \n\"publishmaxplanmaxlimitreached\":\"Maximum number of components allowed to publish for your account has been exceeded.\", \n\"selectOption\":\"Select\",\n\"redirectopaypal\":\"Redirecting to payment gateway...\",\n\"invalidentriesfound\":\"Invalid entries found\",\n\"correctandsubmit\":\"Please correct and submit again.\",\n\"redirectopaypal\":\"Redirecting to payment gateway...\",\n\"formlooksactive\":\"Form looks active\",\n\"fileuploadinprogress\":\"File upload is in progress, try to submit once all uploads are done.\",\n\"subformrowlimitreachedmsg\":\"You have reached maximum number of rows. You cannot add further.\",\n/* Report related keys */\n\"deleterecord\":\"Do you really want to delete this record &#x3f;\", \n\"delfailmsg\":\"Record&#x28;s&#x29; could not be deleted, since delete validate action failed.\", \n\"delsuccmsg\":\"Record&#x28;s&#x29; deleted successfully.\", \n\"nofldtomatch\":\"Please select the field(s) to match with existing record(s)\",\n\"plzpastedata\":\"Please provide input for file content\",\n\"importerror\":\"Error occurred while uploading the file. Kindly report this problem to support@zohocreator.com\",\n\"nofiletoimport\":\"Please select a file with data.\",\n\"unsupportedfile\":\"File format not supported. Please use a .CSV, .TSV, .XLS, .XLSX or .TXT file.\",\n\"emptyfiletoimport\":\"Please provide a file with data\",\n\"largefiletoimport\":\"Please provide a file of size less than 5MB\",\n\"uploadmore\":\"To upload more, contact support@zohocreator.com\", \n\"importingmsg\":\"Importing Data ...\", \n\"selcols4imp\":\"Please select columns to import\", \n\"showimperrors\":\"Show Errors\", \n\"hideimperrors\":\"Hide Errors\", \n\"unabletodelete1000recs\":\"Unable to delete more than 1000 records\", \n\"unabletodup1000recs\":\"Unable to duplicate more than 1000 records\", \n\"duplicaterecords\":\"Duplicating Records\", \n\"deleterecords\":\"Deleting Records\", \n\"selectrectodup\":\"Please select at least one record to be duplicated\", \n\"selectrectodelete\":\"Please select at least one record to be deleted\", \n\"deleteselrecsconf\":\"Do you really want to delete these records &#x3f;\", \n\"deleteselrecconf\":\"Do you really want to delete this record &#x3f;\", \n\"dupselrecsconf\":\"Do you really want to duplicate these records &#x3f;\", \n\"dupselrecconf\":\"Do you really want to duplicate this record &#x3f;\", \n\"selectatleastonerectoprintsummary\":\"You should select atleast one record to print the record summary.\", \n\"viewinvalidentriesmessage\":\"Invalid entries found. Please correct and save again.\", \n\"showatleastacolumn\":\"Select at least one column to display\", \n\"selectatleastacolumntoimport\":\"Select at least one column to import\", \n\"reportregensuccess\":\"Scheduled for regenerating this report. This may take few minutes based on the view&#x27;s data.\", \n\"reportregenfail\":\"Sorry. We are unable to regenerate the report.\", \n\"spreadsheetcnfm\":\"Do you really want to leave this page&#x3f; Unsaved changes will be lost.\", \n\"custactinfo\":\"Select at least one record&#x28;matching criteria&#x29; upon which the custom action has to be invoked.\", \n\"unabletodeletereport\":\"Unable to delete the Report.\", \n\"fileuploadsizelimit\":\"File size must be lesser than 5MB\", \n\"imagesizelimit\":\"File size must be lesser than 1MB\", \n\"nofieldselect\":\"No fields selected&#x21;&#x21;\", \n\"updatenofield\":\"Update record for no fields doesn&#x27;t make sense\", \n\"norecordselect\":\"No records selected&#x21;&#x21;\", \n\"updatenorecord\":\"Update record for no records doesn&#x27;t make sense\", \n\"editcontinue\":\"Are you sure you want to continue&#x3f;\", \n\"updaterecords\":\"This will update &#x5b;0&#x5d; selected records\", \n\"updaterecord\":\"This will update &#x5b;0&#x5d; selected record\", \n\"updatevalue\":\"with the given value.\", \n\"updatevalues\":\"with the given values.\", \n\"vieweditinvalidmsg\":\"Invalid entries found. Please correct and save again.\", \n\"bulkeditselcolumn\":\"Select the column to edit\", \n\"either\":\"either\", \n\"or\":\"or\", \n\"month\":\"Month\", \n\"week\":\"Week\", \n\"day\":\"Day\", \n\"nextmonth\":\"Next Month\",  \n\"nextweek\":\"Next Week\",  \n\"nextday\":\"Next Day\",  \n\"previousmonth\":\"Previous Month\",  \n\"previousweek\":\"Previous Week\",  \n\"previousday\":\"Previous Day\", \n\"searchlimit\":\"Field cannot have more than six values in search\" , \n\"correctvalueforn\":\"Please enter a valid number for N\" , \n\"correctvaluetosearch\":\"Please enter a valid number to search\",  \n\"pdfdisablewarning\":\"Pdf export is currently not available for reports with multiple search values in a particular field\",  \n\"dropdownselect\":\"-Select-\", \n//Walkthrough    \n\n\"zc.onboarding.wtlivemodeviewheading\":\"DATA REPORT\", \n\"zc.onboarding.wtlivemodeviewdesc\":\"Click here to see all the records you have submitted in your form.\", \n\"zc.onboarding.wtlivemodeaddheading\":\"WEB FORM\", \n\"zc.onboarding.wtlivemodeadddesc\":\"Here is where you add data and submit it into your database.\", \n\"zc.onboarding.wtlivemodeeditheading\":\"EDIT APPLICATION\", \n\"zc.onboarding.wtlivemodeeditdesc\":\"Click on this icon to customize your application further, and share it with your team.\", \n\"zc.onboarding.wtgotit\":\"Got it\", \n\"zc.onboarding.stepof\":\"of\", \n\"zc.onboarding.wtskip\":\"Skip Tutorial\", \n\"zc.onboarding.wtnext\":\"Next\", \n\"zc.onboarding.wtheadingapplication\":\"Here's your Application\", \n\"zc.onboarding.wtdescapplication\":\"This is what people will see when they're using your application. In the final small section of the tutorial, we'll walk through how your pizza orders get stored. Go ahead and fill out your form a few times.\", \n\"zc.onboarding.wtheadingreports\":\"Reports\", \n\"zc.onboarding.wtdescreports\":\"Every time you build a form, Creator automatically makes a <b>Report</b> to view the info you enter in the form. This report is named after our form, but you can always change the name later. <br/><br/>Click on it to see what's inside.\", \n\"zc.onboarding.wtheadingrecords\":\"Reports and Records\", \n\"zc.onboarding.wtdescrecords\":\"This report lets workers know who ordered, which pizzas they want, and what table to deliver them to. Each entry in the report is called a <b>Record</b>.\", \n\"zc.onboarding.wtheadingsearch\":\"Searching\", \n\"zc.onboarding.wtdescsearch\":\"Reports let you search through and sort your information. You can click on the search icon and fill in details to find the records youre looking for.\", \n\"zc.onboarding.wtheadingfinal\":\"And that's it!\", \n\"zc.onboarding.wtdescfinal\":\"Congratulations! You're done.</br></br> If you want to keep working on your application, click on the 'Edit this application' link to return to the form builder screen.</br>For more help, you can always click on the 'Help' link to read our guides, watch our videos, chat with support, or go through this tutorial again.\", \n\"zc.onboarding.wtheadingcreatorbasicsinfo\":\"Forms and Reports\", \n\"zc.onboarding.wtdesccreatorbasicsinfo\":\"Now you know the basics of any Creator application. <b>Forms</b> let you collect information, and <b>reports</b> help you use it. In our application the form collects orders, and the report helps our workers serve pizzas.\" \n}</script><script>var jsLocale = \"en\";\t\nfunction getConfig()\n{\nvar confprop={\"useCompression\":true,\"cssStaticServer\":'css.zohostatic.com',\"jsStaticServer\":'js.zohostatic.com',\"domainVal\":'zoho.com',\"production\":'true',\"devSetup\":false};  \nreturn confprop;\n}\nfunction hideWelcomeLoading(){\ntry{ cssDepenency }\ncatch(e){\nif (e instanceof ReferenceError) {\nsetTimeout(hideWelcomeLoading,100);\nreturn false;\n}\nreturn false;\n}\nvar d = document.getElementById(\"zc-init-loader-animation\");\nd.className += \" complete\";   \t\nvar element = document.getElementById(\"zc-welcome-loading\");\nelement.className = element.className + \" fadeOut\";\nsetTimeout(function(){element.parentNode.removeChild(element);},200);\ndocument.body.className = document.body.className.replace(\"zc-body-init \",\"\");\n}\nvar useCompression \t=  true;\t\nvar jsApacheServer \t= \"https://js.zohostatic.com\";\t\nvar cssApacheServer \t= \"https://css.zohostatic.com\";\t\nvar label \t\t\t= \"ZOHOCREATOR_REVIEWED_Mar_17_2017_5\";\t\nvar wFlag \t\t\t= false;\t\nvar appMeta \t\t= {\"APPLINKNAME\":\"order-management\",\"isPaymentCallback\":false,\"CUSTOMTHEME\":true,\"APPPAGES\":{\"Orders\":{\"PAGELINKNAME\":\"Orders\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"New Boat Lease\",\"COMPLINKNAME\":\"Leases\"},{\"COMPDISPLAYNAME\":\"Pending\",\"COMPLINKNAME\":\"Pending_Orders\"},{\"COMPDISPLAYNAME\":\"Ready for delivery\",\"COMPLINKNAME\":\"Delivery_Pending\"},{\"COMPDISPLAYNAME\":\"All Orders\",\"COMPLINKNAME\":\"All_Orders\"},{\"COMPDISPLAYNAME\":\"Delivery Agencies\",\"COMPLINKNAME\":\"Delivery_Agencies\"},{\"COMPDISPLAYNAME\":\"Transfer Lease\",\"COMPLINKNAME\":\"Transfer_Lease\"},{\"COMPDISPLAYNAME\":\"Transfer Lease Report\",\"COMPLINKNAME\":\"Transfer_Lease_Report\"}],\"PAGEDISPLAYNAME\":\"Orders\"},\"Products\":{\"PAGELINKNAME\":\"Products\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"Add New SailBoat\",\"COMPLINKNAME\":\"Sailboats\"},{\"COMPDISPLAYNAME\":\"Inventory\",\"COMPLINKNAME\":\"Inventory\"},{\"COMPDISPLAYNAME\":\"All Products\",\"COMPLINKNAME\":\"Product_View\"},{\"COMPDISPLAYNAME\":\"Suppliers\",\"COMPLINKNAME\":\"Suppliers1\"},{\"COMPDISPLAYNAME\":\"Add New Powerboat\",\"COMPLINKNAME\":\"Add_New_Powerboat\"},{\"COMPDISPLAYNAME\":\"Add New Powerboat Report\",\"COMPLINKNAME\":\"Add_New_Powerboat_Report\"},{\"COMPDISPLAYNAME\":\"Lease Slip\",\"COMPLINKNAME\":\"Lease_Slip\"},{\"COMPDISPLAYNAME\":\"Lease Slip Report\",\"COMPLINKNAME\":\"Lease_Slip_Report\"},{\"COMPDISPLAYNAME\":\"Renew Slip Lease\",\"COMPLINKNAME\":\"Renew_Slip_Lease\"},{\"COMPDISPLAYNAME\":\"Renew Slip Lease Report\",\"COMPLINKNAME\":\"Renew_Slip_Lease_Report\"}],\"PAGEDISPLAYNAME\":\"Products\"},\"Purchase\":{\"PAGELINKNAME\":\"Purchase\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"New Purchase\",\"COMPLINKNAME\":\"Purchase\"},{\"COMPDISPLAYNAME\":\"Active\",\"COMPLINKNAME\":\"Active\"},{\"COMPDISPLAYNAME\":\"Canceled\",\"COMPLINKNAME\":\"Canceled\"},{\"COMPDISPLAYNAME\":\"Received\",\"COMPLINKNAME\":\"Received\"},{\"COMPDISPLAYNAME\":\"All Orders\",\"COMPLINKNAME\":\"All_Purchase_Orders\"}],\"PAGEDISPLAYNAME\":\"Purchase\"},\"Help\":{\"PAGELINKNAME\":\"Help\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"Help\",\"COMPLINKNAME\":\"Help\"}],\"PAGEDISPLAYNAME\":\"Help\"},\"Customers\":{\"PAGELINKNAME\":\"Customers\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"New Customer\",\"COMPLINKNAME\":\"Customers\"},{\"COMPDISPLAYNAME\":\"Customers View\",\"COMPLINKNAME\":\"Customers_View\"}],\"PAGEDISPLAYNAME\":\"Customers\"},\"Product_Backhand\":{\"PAGELINKNAME\":\"Product_Backhand\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"Business Group\",\"COMPLINKNAME\":\"Business_Group\"},{\"COMPDISPLAYNAME\":\"Business Group View\",\"COMPLINKNAME\":\"Business_Group_View\"},{\"COMPDISPLAYNAME\":\"Boat Group\",\"COMPLINKNAME\":\"Boat_Group\"},{\"COMPDISPLAYNAME\":\"Product Group View\",\"COMPLINKNAME\":\"Product_Group_View\"},{\"COMPDISPLAYNAME\":\"Suppliers\",\"COMPLINKNAME\":\"Suppliers\"},{\"COMPDISPLAYNAME\":\"Generate Invoice\",\"COMPLINKNAME\":\"Generate_Invoice\"}],\"PAGEDISPLAYNAME\":\"Product Backhand\"},\"Dashboard\":{\"PAGELINKNAME\":\"Dashboard\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"Dashboard\",\"COMPLINKNAME\":\"Dashboard\"},{\"COMPDISPLAYNAME\":\"Sail Boats\",\"COMPLINKNAME\":\"Sail_Boats\"},{\"COMPDISPLAYNAME\":\"Sail/Power Boats Report\",\"COMPLINKNAME\":\"Sail_Power_Boats_Report\"}],\"PAGEDISPLAYNAME\":\"Dashboard\"},\"Reports\":{\"PAGELINKNAME\":\"Reports\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"By Products\",\"COMPLINKNAME\":\"By_Products_new\"},{\"COMPDISPLAYNAME\":\"By Region\",\"COMPLINKNAME\":\"By_Region\"},{\"COMPDISPLAYNAME\":\"By Sales Person\",\"COMPLINKNAME\":\"By_Sales_Person\"},{\"COMPDISPLAYNAME\":\"Expense_Report\",\"COMPLINKNAME\":\"Expense_Report\"},{\"COMPDISPLAYNAME\":\"Inventory_Report\",\"COMPLINKNAME\":\"Inventory_Report\"},{\"COMPDISPLAYNAME\":\"Sales Report\",\"COMPLINKNAME\":\"Sales_Report1\"}],\"PAGEDISPLAYNAME\":\"Reports\"},\"Maintain_Boat_Information\":{\"PAGELINKNAME\":\"Maintain_Boat_Information\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"Maintain Boat Information\",\"COMPLINKNAME\":\"Maintain_Boat_Information\"},{\"COMPDISPLAYNAME\":\"Maintain Boat Information Report\",\"COMPLINKNAME\":\"Maintain_Boat_Information_Report\"}],\"PAGEDISPLAYNAME\":\"Maintain Boat Information\"},\"Boat\":{\"PAGELINKNAME\":\"Boat\",\"PAGEISHIDDEN\":false,\"COMPONENTS\":[{\"COMPDISPLAYNAME\":\"SailBoat Lease\",\"COMPLINKNAME\":\"Marina\"},{\"COMPDISPLAYNAME\":\"Employees View\",\"COMPLINKNAME\":\"Employees_View\"}],\"PAGEDISPLAYNAME\":\"Boats\"}},\"APPTHEME\":2,\"APPDISPLAYNAME\":\"Popeye Marina Order Management\",\"FEATURES\":{\"showFirstTimeTutorial\":true,\"showSignupHelpCard\":true},\"PAGESLIST\":[\"Dashboard\",\"Generate_Invoice\",\"Help\"]};\nvar sharedBy\t\t= \"643665937\";\nvar fontawsomeCSS\t= \"https://css.zohostatic.com/creator/ZOHOCREATOR_REVIEWED_Mar_17_2017_5/app/css/font-fontawesome.css\";  \nvar bootCSS\t\t\t= \"https://css.zohostatic.com/creator/ZOHOCREATOR_REVIEWED_Mar_17_2017_5/app/css/boot.css\";\t\t\t\t\nvar themeCSS\t\t= \"https://css.zohostatic.com/creator/ZOHOCREATOR_REVIEWED_Mar_17_2017_5/app/css/theme2.css\";\t\nvar bootJS\t\t\t= \"https://js.zohostatic.com/creator/ZOHOCREATOR_REVIEWED_Mar_17_2017_5/app/js/bootstrap.js\";\t\t\t\nvar livelibJS\t\t= \"https://js.zohostatic.com/creator/ZOHOCREATOR_REVIEWED_Mar_17_2017_5/app/js/livelib.js\";\t\t\t\t\nvar contactSRC\t\t= \"https://contacts.zoho.com/file?fs=thumb&ID=643664702\";\t\nvar themeFontCSS\t= \"https://css.zohostatic.com/creator/ZOHOCREATOR_REVIEWED_Mar_17_2017_5/app/css/font-opensans.css\";\t\nvar bootConfig \t\t= {\nuseCompression\t: useCompression,\nlabel\t\t\t: label,\nwalkThrough\t\t: wFlag, \nappMeta\t\t\t: appMeta,\njsApacheServer\t: jsApacheServer,\ncssApacheServer\t: cssApacheServer,\ncontactSRC\t\t: contactSRC\n};</script>\n<script type=\"text/javascript\" src=\"https://js.zohostatic.com/creator/ZOHOCREATOR_REVIEWED_Mar_17_2017_5/app/js/es6.js\"></script><script>window.onload = function(){\nsetTimeout(function(){\nloadFiles([fontawsomeCSS,themeFontCSS,bootCSS,themeCSS]).then(function(){\ncssDepenency = true;\n});\nloadFiles([bootJS]).then(function(){\nloadFiles([livelibJS]).then(function(){\nvar booter = new Booter(bootConfig);\nbooter.boot();\nsetTimeout(function(){\nhideWelcomeLoading()\n},500);\n});\n});\n},0);\n};</script></head><body class=\"zc-body-init primary_theme primary_sidebar_theme \">\n<div id=\"zc-welcome-loading\" class=\"zc_loader_container\"><div id=\"zc-init-loader-animation\" class=\"zc_initial_loader\"><span>Popeye Marina Order Management</span> <div class=\"zc_initial_progess\"><div class=\"zc_on_loading\"></div></div><div class=\"zc_initial_progess \"><div class=\"zc_on_loading\"></div></div></div></div><script>ZCGlobal.isAdmin = true;\t\nZCGlobal.isEditSupport = false;\tvar c = getCookie('ZCNEWUIPUBLICPORTAL');if(c != null && c != undefined && c == 'false'){if( !ZCGlobal.isAdmin && !ZCGlobal.isEditSupport ){location.href = location.href.replace(location.host, \"creator.zoho.com\");}}</script>\n<div class=\"wrapper container-fixed\">\n<div class=\"zc-header\"><div class=\"brand\"><a href=\"https://app.zohocreator.com\" style=\"display:none;\">\n\n</a>\n<a href=\"\">\nPopeye Marina Order Management\n</a></div>\n<div class=\"header_top_bar\"><a href=\"javascript:void(0);\" class=\"menutoggle\" id=\"menuToggle\"> <i class=\"fa fa-dedent fa-fw\"></i> </a>\n\n<div class=\"top_navbar\">\n<div class=\"zc-header-setting\"><a href=\"javascript:;\" class=\"zc_transition\" id=\"zc-app-settings\">\n\n<i class=\"fa fa-wrench\"></i>\n\n\n</a></div>\n\n<div id=\"zc-account-settings\" class=\"top_navbar_user\"><a href=\"javascript:;\">\n<img src=\"\" class=\"pull_left user_image\">\t\t\t\n<span class=\"navbar_user_name\">Norman Mike M</span> </a></div><div class=\"clear\"></div></div></div></div>\n\n<div class=\"topbar_dropdown zc-app-dropdown\" id=\"zc-app-dropdown\"><a id=\"editAppEl\" href=\"https://creator.zoho.com/appbuilder/normanmikem/order-management/edit\" class=\"zc-edit-icon\">\t\t\t\n<i class=\"fa fa-pencil\"></i>\n<span class=\"\">Edit this application</span> </a>\n<a href=\"javascript:;\" class=\"zc-admin-action zc-admin-theme-switch\" id=\"zc-adminpanel\">\n<i class=\"fa fa-paint-brush\"></i>\n<span class=\"\">Themes</span> </a>\n\n \n\n<a href=\"javascript:;\" class=\"zc-admin-action zc-admin-help-opt\" id=\"zc-more-help\" onclick=\"loadSalesIq('https://salesiq.zoho.com',false,true)\">\n<i class=\"fa fa-question-circle\"></i>\n<span class=\"\">Help</span> </a></div>\n\n\n<div class=\"topbar_dropdown\" id=\"zc-account-dropdown\" style=\"right:0.3%\"><div class=\"Profile-info\"><div class=\"user-image\"><a href=\"javascript:;\">\n<img src=\"\" class=\"pull_left user_image\">\t\t\t\n</a></div><div class=\"user-info\"><div class=\"user-name\"><span class=\"navbar_user_name\">Norman Mike M</span></div><div class=\"user-email-id\"><a href=\"\"><span class=\"navbar_user_name\">bzrnorman&#x40;gmail.com</span></a></div><div class=\"user-privacy\">\n<a href=\"https://accounts.zoho.com/u/h#profile/personal\" target=\"_blank\">My Account</a>\n\n\n<a href=\"https://creator.zoho.com/logoutpage.jsp?sharedBy=normanmikem&appLinkName=order-management&appID=3288672000000012003\" class=\"dropdown_option\">\t\t\t\n<i class=\"fa fa-sign-out\"></i>\n<span class=\"title\">Sign out</span> </a>\n</div></div></div><div class=\"Profile-option\"><ul><li><a href=\"https://creator.zoho.com\" class=\"dropdown_option\">\t\t\t\t\t\n<i class=\"fa fa-home\"></i>\n<span class=\"title\">Home</span> </a></li>\n\n<li><a id=\"oldLiveSwitchEle\" href=\"javascript:;\" class=\"zc_transition\">\n<i class=\"fa fa-undo\"></i>\n<span class=\"switch-old-version\">Switch to old version</span> </a></li>\n\n</ul></div></div>\n\n<div><div class=\"zc-panel\" id=\"panel\"><div class=\"admin-panel-wrapper hide\" id=\"adminPanel\"><div class=\"clear\"></div><div id=\"adminPanelContainer\"><div id=\"adminPanelContent\">\n<ul id=\"tabContainer\" class=\"switch_user_tab\"><li><a class=\"themePanel\">Themes</a></li><li><a class=\"iconPanel\">Icons</a></li>\n<a href=\"javascript:;\" id=\"adminpanel-close\" class=\"tab_anchor\"><i class=\"fa fa-times\"></i></a></ul><div id=\"admin_accordion\"><div class=\"theme_color_wrapper\" style=\"display:none;\"><div class=\"theme_color_options js-tooltip\" style=\"margin-top:10px;\">\n<span class=\"selectThemes\">Select Theme</span> <span id=\"1\" class=\"theme_opt zc_transition bg_blue\"> <b class=\"theme_header theme_header_left\"></b>\n<b class=\"theme_header theme_header_right\"></b>\n<b class=\"theme_sidebar\"></b>\n<b class=\"theme_sidebar_menu\"></b> </span><span id=\"2\" class=\"theme_opt zc_transition bg_green_tab\"> <b class=\"theme_header\"></b>\n<b class=\"theme_topbar\"></b>\n<b class=\"theme_topbar_search\"></b> </span><span id=\"3\" class=\"theme_opt zc_transition bg_red\"> <b class=\"theme_header theme_header_left\"></b>\n<b class=\"theme_header theme_header_right\"></b>\n<b class=\"theme_sidebar\"></b> </span><span id=\"4\" class=\"theme_opt zc_transition bg_blue_light\"> <b class=\"theme_header theme_header_left\"></b>\n<b class=\"theme_header theme_header_right\"></b>\n<b class=\"theme_sidebar\"></b> </span><span id=\"5\" class=\"theme_opt zc_transition bg_sky_blue\"> <b class=\"theme_header theme_header_left\"></b>\n<b class=\"theme_header theme_header_right\"></b>\n<b class=\"theme_sidebar\"></b>\n<b class=\"theme_sidebar_menu\"></b> </span><span id=\"6\" class=\"theme_opt zc_transition bg_black_tab\"> <b class=\"theme_header\"></b>\n<b class=\"theme_topbar\"></b> </span></div></div>\n<div class=\"icons_wrapper\"><div class=\"use_icon_option\"><span>Use Icons</span> <span><input type=\"radio\" name=\"useIcons\" value=\"1\">Yes</span> <span><input type=\"radio\" name=\"useIcons\" value=\"0\">No</span> <div class=\"iconBtnCntr hide\"><input type=\"button\" name=\"saveIcons\" class=\"zc-live-primary-btn\" value=\"Save Changes\" /><input type=\"button\" name=\"resetIcons\" class=\"zc-live-secondary-btn\" value=\"Reset Changes\" /></div></div><div class=\"icon_content_wrapper\"><div class=\"icon_menu_wrapper\"><ul>\n<li class=\"zc_nav_section\" key=\"Dashboard\" type=\"0\" uid=\"3288672000000012005\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Dashboard</span> </a>\n\n<ul class=\"zc_tab_comp pane_nav_submenu\">\n<li class=\"zc_nav_com\" key=\"Dashboard\" type=\"1\" uid=\"3288672000000012009\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Dashboard</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Sail_Boats\" type=\"1\" uid=\"3288672000000011502\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Sail Boats</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Sail_Power_Boats_Report\" type=\"1\" uid=\"3288672000000011554\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Sail/Power Boats Report</span> </a></li></ul></li>\n<li class=\"zc_nav_section\" key=\"Orders\" type=\"0\" uid=\"3288672000000012011\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Orders</span> </a>\n\n<ul class=\"zc_tab_comp pane_nav_submenu\">\n<li class=\"zc_nav_com\" key=\"Leases\" type=\"1\" uid=\"3288672000000012015\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >New Boat Lease</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Pending_Orders\" type=\"1\" uid=\"3288672000000012117\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Pending</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Delivery_Pending\" type=\"1\" uid=\"3288672000000012125\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Ready for delivery</span> </a></li>\n<li class=\"zc_nav_com\" key=\"All_Orders\" type=\"1\" uid=\"3288672000000012141\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >All Orders</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Delivery_Agencies\" type=\"1\" uid=\"3288672000000014113\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Delivery Agencies</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Transfer_Lease\" type=\"1\" uid=\"3288672000000011353\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Transfer Lease</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Transfer_Lease_Report\" type=\"1\" uid=\"3288672000000011405\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Transfer Lease Report</span> </a></li></ul></li>\n<li class=\"zc_nav_section\" key=\"Products\" type=\"0\" uid=\"3288672000000012157\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Products</span> </a>\n\n<ul class=\"zc_tab_comp pane_nav_submenu\">\n<li class=\"zc_nav_com\" key=\"Sailboats\" type=\"1\" uid=\"3288672000000012161\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Add New SailBoat</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Inventory\" type=\"1\" uid=\"3288672000000014137\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Inventory</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Product_View\" type=\"1\" uid=\"3288672000000012259\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >All Products</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Suppliers1\" type=\"1\" uid=\"3288672000000014161\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Suppliers</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Add_New_Powerboat\" type=\"1\" uid=\"3288672000000011175\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Add New Powerboat</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Add_New_Powerboat_Report\" type=\"1\" uid=\"3288672000000011229\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Add New Powerboat Report</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Lease_Slip\" type=\"1\" uid=\"3288672000000011237\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Lease Slip</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Lease_Slip_Report\" type=\"1\" uid=\"3288672000000011289\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Lease Slip Report</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Renew_Slip_Lease\" type=\"1\" uid=\"3288672000000011295\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Renew Slip Lease</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Renew_Slip_Lease_Report\" type=\"1\" uid=\"3288672000000011347\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Renew Slip Lease Report</span> </a></li></ul></li>\n<li class=\"zc_nav_section\" key=\"Purchase\" type=\"0\" uid=\"3288672000000012291\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Purchase</span> </a>\n\n<ul class=\"zc_tab_comp pane_nav_submenu\">\n<li class=\"zc_nav_com\" key=\"Purchase\" type=\"1\" uid=\"3288672000000012295\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >New Purchase</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Active\" type=\"1\" uid=\"3288672000000012389\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Active</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Canceled\" type=\"1\" uid=\"3288672000000012401\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Canceled</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Received\" type=\"1\" uid=\"3288672000000012417\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Received</span> </a></li>\n<li class=\"zc_nav_com\" key=\"All_Purchase_Orders\" type=\"1\" uid=\"3288672000000012429\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >All Orders</span> </a></li></ul></li>\n<li class=\"zc_nav_section\" key=\"Customers\" type=\"0\" uid=\"3288672000000012457\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Customers</span> </a>\n\n<ul class=\"zc_tab_comp pane_nav_submenu\">\n<li class=\"zc_nav_com\" key=\"Customers\" type=\"1\" uid=\"3288672000000012461\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >New Customer</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Customers_View\" type=\"1\" uid=\"3288672000000012577\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Customers View</span> </a></li></ul></li>\n<li class=\"zc_nav_section\" key=\"Boat\" type=\"0\" uid=\"3288672000000012633\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Boats</span> </a>\n\n<ul class=\"zc_tab_comp pane_nav_submenu\">\n<li class=\"zc_nav_com\" key=\"Marina\" type=\"1\" uid=\"3288672000000012637\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >SailBoat Lease</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Employees_View\" type=\"1\" uid=\"3288672000000012727\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Employees View</span> </a></li></ul></li>\n<li class=\"zc_nav_section\" key=\"Reports\" type=\"0\" uid=\"3288672000000012759\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Reports</span> </a>\n\n<ul class=\"zc_tab_comp pane_nav_submenu\">\n<li class=\"zc_nav_com\" key=\"By_Products_new\" type=\"1\" uid=\"3288672000000018231\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >By Products</span> </a></li>\n<li class=\"zc_nav_com\" key=\"By_Region\" type=\"1\" uid=\"3288672000000018233\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >By Region</span> </a></li>\n<li class=\"zc_nav_com\" key=\"By_Sales_Person\" type=\"1\" uid=\"3288672000000018235\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >By Sales Person</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Expense_Report\" type=\"1\" uid=\"3288672000000018237\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Expense_Report</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Inventory_Report\" type=\"1\" uid=\"3288672000000018239\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Inventory_Report</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Sales_Report1\" type=\"1\" uid=\"3288672000000018241\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Sales Report</span> </a></li></ul></li>\n<li class=\"zc_nav_section\" key=\"Product_Backhand\" type=\"0\" uid=\"3288672000000012763\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Product Backhand</span> </a>\n\n<ul class=\"zc_tab_comp pane_nav_submenu\">\n<li class=\"zc_nav_com\" key=\"Business_Group\" type=\"1\" uid=\"3288672000000012767\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Business Group</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Business_Group_View\" type=\"1\" uid=\"3288672000000012825\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Business Group View</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Boat_Group\" type=\"1\" uid=\"3288672000000012833\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Boat Group</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Product_Group_View\" type=\"1\" uid=\"3288672000000012907\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Product Group View</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Suppliers\" type=\"1\" uid=\"3288672000000012921\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Suppliers</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Generate_Invoice\" type=\"1\" uid=\"3288672000000013027\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Generate Invoice</span> </a></li></ul></li>\n<li class=\"zc_nav_section\" key=\"Help\" type=\"0\" uid=\"3288672000000013825\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Help</span> </a>\n</li>\n<li class=\"zc_nav_section\" key=\"Maintain_Boat_Information\" type=\"0\" uid=\"3288672000000011411\">\n<a href=\"javascript:void(0);\" class=\"zc_tab zc_transition\">\n<i class=\"fa\"></i>\n<span class=\"title\">Maintain Boat Information</span> </a>\n\n<ul class=\"zc_tab_comp pane_nav_submenu\">\n<li class=\"zc_nav_com\" key=\"Maintain_Boat_Information\" type=\"1\" uid=\"3288672000000011415\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Maintain Boat Information</span> </a></li>\n<li class=\"zc_nav_com\" key=\"Maintain_Boat_Information_Report\" type=\"1\" uid=\"3288672000000011467\">\n<a href=\"javascript:void(0);\">\n<i class=\"fa\" ></i>\n<span class=\"title\" >Maintain Boat Information Report</span> </a></li></ul></li></ul></div><div class=\"icon_tab_wrapper\"><div id=\"icon_search_box\" class=\"icon_search_container\"><input type=\"text\" name=\"iconSearchInput\" class=\"icon_search_bar\" placeholder=\"Search...\" autocomplete=\"off\">\n<i class=\"fa fa-search cp\"></i></div><div id=\"icons_container_wrapper\" class=\"icons_search_wrapper\"><div class=\"tableHeader recentsTable\" style=\"display:none;\">Recent</div><table name=\"recentsTable\"><tbody></tbody></table><div class=\"tableHeader iconsTable\" style=\"display:none;\">Others</div><table name=\"iconsTable\"><tbody></tbody></table><table name=\"iconsTableClone\"><tbody></tbody></table></div><div class=\"icons_notused_wrapper\"><div>Icons are currently not used in this application.</div></div></div></div></div></div></div></div></div><div id=\"helpPanel\" class=\"hide\"><div class=\"zc_more_help\"><div class=\"zc_help-panelheader\"><span class=\"zc_help-text\">Help</span> <a href=\"javascript:;\" id=\"zc_helpPanel-close\" class=\"tab_anchor\"><i class=\"fa fa-times\"></i></a></div><div class=\"zc_help_container\"><div class=\"zc_help-helpcenter pull-left zc-half-width\"><a href=\"https://www.zoho.com/creator/help/?utm_source=Zcreator-Builder&utm_medium=HeaderLink&utm_campaign=LiveHelp\" target=\"_blank\">\n<i class=\"fa fa-question\"></i>\n<span class=\"zc_help-header\">Help Center</span> <span class=\"zc_help-subcontent\">With Zoho Creator's user guide, gain in-depth knowledge of the application development process.</span> \n</a></div><div class=\"zc_help-webinar zc-half-width pull-left\"><a href=\"https://www.zoho.com/creator/webinar.html?utm_source=Zcreator-Builder&utm_medium=HeaderLink&utm_campaign=LiveHelp\" target=\"_blank\" >\n<i class=\"fa fa-users\"></i>\n<span class=\"zc_help-header\">Webinar</span> <span class=\"zc_help-subcontent\">Use the Live Chat and fire away your questions as you participate in the webinar.</span> \n</a></div><div class=\"zc_help-takeAtour pull-left zc-half-width\"><a href=\"https://www.zoho.com/creator/videos.html?utm_source=Zcreator-Builder&utm_medium=HeaderLink&utm_campaign=LiveHelp\" target=\"_blank\" >\n<i class=\"fa fa-play-circle-o\"></i>\n<span class=\"zc_help-header\">Take a Tour</span> <span class=\"zc_help-subcontent\">Watch our list of videos, to help you get started with Zoho Creator.</span> \n</a></div><div class=\"zc_help-moblieApps zc-half-width pull-left\"><a href=\"https://www.zoho.com/creator/mobile-office.html?utm_source=Zcreator-Builder&utm_medium=HeaderLink&utm_campaign=LiveHelp\" target=\"_blank\" >\n<i class=\"fa fa-mobile\"></i>\n<span class=\"zc_help-header\">Mobile Apps</span> <span class=\"zc_help-subcontent\">Accessing, updating and analyzing data is faster with native apps for IOS, Android and Windows devices. </span>\n</a></div><div class=\"zc_help-support pull-left zc-half-width\"><a href=\"https://creator.zoho.com/appbuilder/normanmikem/order-management/support/edit\" target=\"_blank\" >\t\n<i class=\"fa fa-envelope\"></i>\n<span class=\"zc_help-header\">Support</span> <span class=\"zc_help-subcontent\">One stop place to get all your questions answered and to connect with the Zoho Creator Team.</span> \n</a></div><div class=\"zc_help-hireAexpert zc-half-width pull-left\"><a href=\"https://creator.zoho.com/userhome/dashboard#hireanexpert\" target=\"_blank\" >\t\n<i class=\"fa fa-user\"></i>\n<span class=\"zc_help-header\">Hire a Certified Expert</span> <span class=\"zc_help-subcontent\">Experts who have earned the trust of our community by contributing ideas available here to help you.</span> \n</a></div>\n<div class=\"zc_help-chat pull-left zc-half-width\"><a href=\"javascript:;\" onclick=\"loadChat()\">\n<i class=\"fa fa-comment\"></i>\n<span class=\"zc_help-header\">Live Chat</span> <span class=\"zc_help-subcontent\">Chat with our Support Team to get more insights about Zoho Creator.</span> \n</a></div></div></div></div></div><div class=\"zc-fade-bg hide\" id=\"shareBg\"></div><div class=\"zc-popup-container hide\" id=\"sharePopup\"><div class=\"zc-popup-box\"><div class=\"zc-popup-box-outer\"><div class=\"zc-popup-box-header\"><span>Revoke access for my users</span> <a class=\"zc-popup-close\"></a></div>\n<div class=\"zc-popup-box-content clearfix\"><div class=\"clearfix zc-pad-20\">\n<div class=\"pull-left share_to_users_img\"></div><ul class=\"zc-popup-box-content-ul pull-left\">\n<li><i class=\"zc-check\"></i> <span>This setting applies to all your users, and to all the applications in your account.</span></li><li><i class=\"zc-check\"></i> <span>Your users will access the old version by default.</span></li><li><i class=\"zc-check\"></i> <span>Ensure that you have not used any new URLs in any of your websites. If so, change those to the old URLs before changing this setting.</span></li>\n\n</ul></div><div class=\"zc-popup-footer clearfix zc-pad-20\"><a class=\"zc-live-primary-btn pull-right zc-bdr-rad-4 disabledButton hidden revertButton\">Revoke access</a>\n<div class=\"zc-popup-footer-decision\"><label for=\"zc_I_agree_to_the_terms\" class=\"agree-decision-box-label\">I have read the above conditions.</label>\n<label>\n<span> <input id=\"zc_I_agree_to_the_terms\" class=\"customCheckbox\" name=\"zc_I_agree_to_the_terms\" title=\"\" value=\"Decision box\" type=\"checkbox\" autocomplete=\"off\"><label for=\"zc_I_agree_to_the_terms\"></label> </span></label></div></div></div></div></div></div><div class=\"zc-fade-bg hide\" id=\"tutorialBg\"></div><a href=\"javascript:;\" class=\"zc-dialogue-close\" id=\"tutorialPopupClose\" style=\"display: none;\"></a>\n<div class=\"zc-popup-container hide\" id=\"tutorialPopup\"><div class=\"zc-popup-box\"><a class=\"zc-slide-arrow zc-arrow-left\">\t</a>\n<a class=\"zc-slide-arrow zc-arrow-right\">\t</a>\n<div class=\"zc-popup-box-outer-feature\"><div class=\"zc-popup-box-content clearfix zc-block\"><div class=\"clearfix zc-block\"><div class=\"zc-theme-slider clearfix zc-block\"><div class=\"bounceIn animated image-delay zc-pa-img slide-1\"><div class=\"zc-image-wraper screen-1 fade-in\"></div><div class=\"zc-thumb-container\"><ul class=\"zc-thumbs\"><li class=\"theme-1\"></li><li class=\"theme-2\"></li><li class=\"theme-3\"></li><li class=\"theme-4\"></li><li class=\"theme-5\"></li></ul></div></div></div><div class=\"zc-theme-fearture-slider\"><h3 class=\"zc-theme-fearture-h3\">Introducing the New <b>zoho Creator ui</b></h3>\n<ul class=\"zc-theme-fearture-list\"><li class=\"bounceInRight animated one\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>New Themes</b><span>A fresh set of colorful themes.</span></div></li><li class=\"bounceInRight animated two\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>Icons</b><span>Clear icons for each part of the application.</span></div></li><li class=\"bounceInRight animated three\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>Font Styles</b><span>Modern flat new fonts.</span></div></li></ul></div></div></div></div></div></div><div class=\"forwardImageSwitch hide\"><div class=\"bounceIn animated image-delay zc-pa-img slide-1\"><div class=\"zc-image-wraper screen-1 fade-in\"></div><div class=\"zc-thumb-container\"><ul class=\"zc-thumbs\"><li class=\"theme-1\"></li><li class=\"theme-2\"></li><li class=\"theme-3\"></li><li class=\"theme-4\"></li><li class=\"theme-5\"></li></ul></div></div><div class=\"bounceIn animated image-delay zc-pa-img slide-2\"><div class=\"zc-image-wraper fade-in\"></div></div><div class=\"bounceIn animated image-delay zc-pa-img slide-3\"><div class=\"zc-image-wraper fade-in\"></div></div></div><div class=\"forwardListSwitch hide\"><div><h3 class=\"zc-theme-fearture-h3\">Introducing the New <b>zoho Creator ui</b></h3>\n<ul class=\"zc-theme-fearture-list\"><li class=\"bounceInRight animated one\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>New Themes</b><span>A fresh set of colorful themes.</span></div></li><li class=\"bounceInRight animated two\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>Icons</b><span>Clear icons for each part of the application.</span></div></li><li class=\"bounceInRight animated three\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>Font Styles</b><span>Modern flat new fonts.</span></div></li></ul></div><div><h3 class=\"zc-theme-fearture-h3\">Introducing the New <b>zoho Creator ui</b></h3>\n<ul class=\"zc-theme-fearture-list\"><li class=\"bounceInRight animated one\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>Switching between versions</b><span>You can switch between the old and new UI.</span></div></li><li class=\"bounceInRight animated two\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>Can I access the new UI on mobile ?</b><span>No, the new UI does not apply for the mobile web site.</span></div></li><li class=\"bounceInRight animated three\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>Can my users access the new UI ?</b><span> No, the new UI is accessible only to the administrator.</span></div></li></ul></div><div><h3 class=\"zc-theme-fearture-h3\">Introducing the New <b>zoho Creator ui</b></h3>\n<ul class=\"zc-theme-fearture-list\"><li class=\"bounceInRight animated one\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>How do I enable the new UI for my users ? </b><span>Click on \"Grant access for my users\" under your profile name.</span></div></li><li class=\"bounceInRight animated two\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>Can my users still access the old UI ?</b><span>Once you enable the new UI for your users, they can't access the old UI.</span></div></li><li class=\"bounceInRight animated three\"><div class=\"zc-theme-fearture-badge\"><span><i class=\"fa fa-check\"></i> </span></div><div class=\"zc-theme-fearture-detail\"><b>How do I switch back to the old UI ?</b><span>Click on \"Switch to old version\" under your profile name.</span></div></li></ul></div></div></div>\n\n\n\n<div class=\"inner\">\n<div class=\"pane_nav \">\n<div class=\"pane_nav_menu accordion_menu zc-showAppIcons container-fixed\" id=\"pane_nav_menu\">\n<ul id=\"zc_nav_menu\">\n<li class=\"zc_nav_section\"><a id=\"tab_Dashboard\" href=\"#Dashboard\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000012005\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Dashboard</span></div>\n\n<span class=\"plus\"> <i class=\"fa fa-angle-down\"></i> </span>\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" >\n\n<li class=\"zc_nav_com\"> \n<a id=\"Dashboard\" href='#Page:Dashboard'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012009\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Dashboard</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Sail_Boats\" href='#Form:Sail_Boats'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011502\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Sail Boats</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Sail_Power_Boats_Report\" href='#Report:Sail_Power_Boats_Report'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011554\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Sail/Power Boats Report</span></div>\n</a></li></ul></li>\n<li class=\"zc_nav_section\"><a id=\"tab_Orders\" href=\"#Orders\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000012011\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Orders</span></div>\n\n<span class=\"plus\"> <i class=\"fa fa-angle-down\"></i> </span>\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" >\n\n<li class=\"zc_nav_com\"> \n<a id=\"Leases\" href='#Form:Leases'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012015\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">New Boat Lease</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Pending_Orders\" href='#Report:Pending_Orders'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012117\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Pending</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Delivery_Pending\" href='#Report:Delivery_Pending'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012125\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Ready for delivery</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"All_Orders\" href='#Report:All_Orders'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012141\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">All Orders</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Delivery_Agencies\" href='#Report:Delivery_Agencies'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000014113\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Delivery Agencies</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Transfer_Lease\" href='#Form:Transfer_Lease'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011353\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Transfer Lease</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Transfer_Lease_Report\" href='#Report:Transfer_Lease_Report'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011405\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Transfer Lease Report</span></div>\n</a></li></ul></li>\n<li class=\"zc_nav_section\"><a id=\"tab_Products\" href=\"#Products\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000012157\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Products</span></div>\n\n<span class=\"plus\"> <i class=\"fa fa-angle-down\"></i> </span>\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" >\n\n<li class=\"zc_nav_com\"> \n<a id=\"Sailboats\" href='#Form:Sailboats'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012161\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Add New SailBoat</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Inventory\" href='#Report:Inventory'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000014137\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Inventory</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Product_View\" href='#Report:Product_View'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012259\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">All Products</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Suppliers1\" href='#Report:Suppliers1'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000014161\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Suppliers</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Add_New_Powerboat\" href='#Form:Add_New_Powerboat'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011175\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Add New Powerboat</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Add_New_Powerboat_Report\" href='#Report:Add_New_Powerboat_Report'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011229\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Add New Powerboat Report</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Lease_Slip\" href='#Form:Lease_Slip'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011237\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Lease Slip</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Lease_Slip_Report\" href='#Report:Lease_Slip_Report'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011289\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Lease Slip Report</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Renew_Slip_Lease\" href='#Form:Renew_Slip_Lease'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011295\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Renew Slip Lease</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Renew_Slip_Lease_Report\" href='#Report:Renew_Slip_Lease_Report'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011347\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Renew Slip Lease Report</span></div>\n</a></li></ul></li>\n<li class=\"zc_nav_section\"><a id=\"tab_Purchase\" href=\"#Purchase\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000012291\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Purchase</span></div>\n\n<span class=\"plus\"> <i class=\"fa fa-angle-down\"></i> </span>\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" >\n\n<li class=\"zc_nav_com\"> \n<a id=\"Purchase\" href='#Form:Purchase'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012295\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">New Purchase</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Active\" href='#Report:Active'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012389\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Active</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Canceled\" href='#Report:Canceled'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012401\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Canceled</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Received\" href='#Report:Received'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012417\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Received</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"All_Purchase_Orders\" href='#Report:All_Purchase_Orders'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012429\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">All Orders</span></div>\n</a></li></ul></li>\n<li class=\"zc_nav_section\"><a id=\"tab_Customers\" href=\"#Customers\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000012457\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Customers</span></div>\n\n<span class=\"plus\"> <i class=\"fa fa-angle-down\"></i> </span>\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" >\n\n<li class=\"zc_nav_com\"> \n<a id=\"Customers\" href='#Form:Customers'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012461\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">New Customer</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Customers_View\" href='#Report:Customers_View'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012577\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Customers View</span></div>\n</a></li></ul></li>\n<li class=\"zc_nav_section\"><a id=\"tab_Boat\" href=\"#Boat\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000012633\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Boats</span></div>\n\n<span class=\"plus\"> <i class=\"fa fa-angle-down\"></i> </span>\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" >\n\n<li class=\"zc_nav_com\"> \n<a id=\"Marina\" href='#Form:Marina'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012637\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">SailBoat Lease</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Employees_View\" href='#Report:Employees_View'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012727\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Employees View</span></div>\n</a></li></ul></li>\n<li class=\"zc_nav_section\"><a id=\"tab_Reports\" href=\"#Reports\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000012759\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Reports</span></div>\n\n<span class=\"plus\"> <i class=\"fa fa-angle-down\"></i> </span>\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" >\n\n<li class=\"zc_nav_com\"> \n<a id=\"By_Products_new\" href='#Report:By_Products_new'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000018231\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">By Products</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"By_Region\" href='#Report:By_Region'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000018233\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">By Region</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"By_Sales_Person\" href='#Report:By_Sales_Person'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000018235\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">By Sales Person</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Expense_Report\" href='#Report:Expense_Report'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000018237\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Expense_Report</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Inventory_Report\" href='#Report:Inventory_Report'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000018239\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Inventory_Report</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Sales_Report1\" href='#Report:Sales_Report1'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000018241\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Sales Report</span></div>\n</a></li></ul></li>\n<li class=\"zc_nav_section\"><a id=\"tab_Product_Backhand\" href=\"#Product_Backhand\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000012763\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Product Backhand</span></div>\n\n<span class=\"plus\"> <i class=\"fa fa-angle-down\"></i> </span>\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" >\n\n<li class=\"zc_nav_com\"> \n<a id=\"Business_Group\" href='#Form:Business_Group'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012767\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Business Group</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Business_Group_View\" href='#Report:Business_Group_View'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012825\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Business Group View</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Boat_Group\" href='#Form:Boat_Group'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012833\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Boat Group</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Product_Group_View\" href='#Report:Product_Group_View'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012907\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Product Group View</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Suppliers\" href='#Form:Suppliers'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000012921\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Suppliers</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Generate_Invoice\" href='#Page:Generate_Invoice'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000013027\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Generate Invoice</span></div>\n</a></li></ul></li>\n<li class=\"zc_nav_section\"><a id=\"tab_Help\" href=\"#Help\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000013825\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Help</span></div>\n\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" style='display:none;'>\n\n<li class=\"zc_nav_com\"> \n<a id=\"Help\" href='#Page:Help'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000013829\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Help</span></div>\n</a></li></ul></li>\n<li class=\"zc_nav_section\"><a id=\"tab_Maintain_Boat_Information\" href=\"#Maintain_Boat_Information\" class=\"zc_tab zc_transition\">\n<i class=\"fa fa-desktop\" id=\"t3288672000000011411\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Maintain Boat Information</span></div>\n\n<span class=\"plus\"> <i class=\"fa fa-angle-down\"></i> </span>\n</a>\n<ul class=\"zc_tab_comp pane_nav_submenu\" >\n\n<li class=\"zc_nav_com\"> \n<a id=\"Maintain_Boat_Information\" href='#Form:Maintain_Boat_Information'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011415\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Maintain Boat Information</span></div>\n</a></li>\n<li class=\"zc_nav_com\"> \n<a id=\"Maintain_Boat_Information_Report\" href='#Report:Maintain_Boat_Information_Report'>\n<i class=\"fa fa-list-alt\" id=\"t3288672000000011467\"></i>\n<div class=\"zc-nav-title\"><span class=\"title\">Maintain Boat Information Report</span></div>\n</a></li></ul></li></ul></div></div><!--Left Pane ends here-->\n\n\n<div id=\"zc-component\"  elname=\"zc-component\" class=\"page_content_wrapper container-fixed\"></div></div>\n<div id=\"preloader\" class=\"loading-animation\"><div class=\"line\"><span class=\"break dot1\"></span> <span class=\"break dot2\"></span> <span class=\"break dot3\"></span> <span class=\"\"></span> <span class=\"\"></span></div></div><div class=\"appFooter\"><p>© 2016 ZOHO Corp. All rights reserved.</p> </div></div><div id=\"active-DatePicker\" ><div style=\"position:relative\" id=\"active-DatePicker-Cont\"></div></div><div class=\"zc-scroll-mask\" style=\"display: none;\"></div></body></html>",
+        "header_custom": "",
+        "footer_custom": "",
         "html_before": ""
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "content5",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "font-size": "20px"
-            }
-          },
-          "_anchor": "content5-u",
+          "_name": "menu",
+          "_anchor": "menu-s",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/desert21.jpg",
-            "bgColor": "#ecf0f1",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3498db",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "Popeye marina",
-          "caption": "<p>Popeye Marina is a privately owned corporation that rents boat slips and&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">provides boat services on Olive Oyl Lakes, a large inland lake located in the&nbsp;</span><span style=\"font-size: 1rem; line-height: 1.85em;\">Brutus area. Popeye is the largest of the three marinas on the lake.&nbsp;</span></p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#f1c40f",
-              "font-size": "60px"
-            }
-          },
-          "_anchor": "content5-j",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
-            "bgColor": "#ecf0f1",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#169581",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "slip booking",
-          "caption": ""
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-v",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "\n    \n    \n",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-s",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
-        },
-        {
-          "_styles": {
-            ".mbr-section-subtitle, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "20px",
-              "margin-top": "0"
-            }
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-i",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#16a085",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444",
+            "bgColor": "#475577",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
             "logo": true,
-            "showTitles": true,
-            "showButtons": true
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/popeye-aa-261x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1173,63 +1341,538 @@
               "size": 0
             }
           },
-          "title1": "",
-          "text11": "Popular",
-          "text12": "Trending",
-          "text13": "Catalog",
-          "text14": "",
-          "text15": "",
-          "title2": "<a href=\"popeyemarinaindex.html\">Home</a><br><a href=\"popeyemarinaindex.html\">Slip Booking<br></a>",
-          "text21": "",
-          "text22": "",
-          "text23": "",
-          "text24": "",
-          "text25": "",
-          "title3": "About Us<br>Contact Us<br><br>",
-          "text31": "",
-          "text32": "",
-          "text33": "",
-          "text34": "",
-          "text35": "",
-          "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
-          "text": "Copyright (c) 2016 Popeye Marina."
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Prospering God`s <br>Way Studios</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-credit-card mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"index.html\">HOME&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page1.html\">STATION SHOWS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page2.html\">IMAGERY GALLERY</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page3.html\">CUSTOMERS SERVICE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page4.html\">SUPPORT</a></li>"
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/code-editor-placeholder.jpg\">",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "font-size": "25px"
+            },
+            "P": {
+              "font-size": "20px"
+            }
+          },
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-w"
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-t",
+          "_params": {
+            "imageSize": "70",
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#2969b0",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Live Online Shows",
+          "text": "Welcome to our Radio Station where all our Daily Shows and Events are lined up so that all our most valued listeners will benefit from choosing what program they would like to get their soul entertainment from",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/code-editor-placeholder.jpg\">",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-y"
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "timeout": "7",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/customer-service-2000x1120.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<a href=\"page3.html\">Customer Support</a>",
+                "showText": true,
+                "text": "<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YOUR SUPPORT IS FINAALY HERE<br></a> "
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/customer-service-1-2000x1473.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "<br>",
+                "showText": true,
+                "text": "<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YOUR SUPPORT IS FINALLY HERE<br></a> "
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#3d8eb9",
+            "showBullets": true
+          },
+          "_anchor": "slider3-15",
+          "articleLayout": false,
+          "_styles": {
+            ".btn": {
+              "font-size": "36px"
+            }
+          }
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/code-editor-placeholder.jpg\">",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#fac51c"
+            },
+            ".lead P": {
+              "font-size": "32px"
+            }
+          },
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-x"
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-17",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Customer Support",
+          "text": "<p>You have arrived at your service platform for all your claims, and help that might be needed as far and as far as we do business together..</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-18",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#c0a375"
+          },
+          "text": "<p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i><b>A</b>t Prospering God`s Way Studios customer is king and we abide by that motto. For all your concerns and claims this is the platform. All you have to do is you &nbsp;email; send all your requests and claims to the emails provided below.</i></span></font></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>support@prosperinggodsway.com</i></span></font><i style=\"line-height: 26px; font-family: Lora, serif;\">;</i></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>You can also easily contact us through our facebook page, and I guarantee you that the service is as efficient as the emails.</i></span></font></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>On a normal rating after a claim or support request has been launched, we take 48 -72 hrs response time being the least and the most response time respectively.</i></span></font></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>Our facebookpage &nbsp;- <b>www.facebook.com/myradiostation</b>. &nbsp;/</i></span></font></p>",
+          "_styles": {
+            "P": {
+              "font-size": "30px",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-w",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2969b0",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          }
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "SUPPORT",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-x",
+          "_params": {
+            "bgColor": "#475577",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Prospering God`s <br>Way Studios</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-credit-card mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"index.html\">HOME&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page1.html\">STATION SHOWS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page2.html\">IMAGERY GALLERY</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page3.html\">CUSTOMERS SERVICE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"page4.html\">SUPPORT</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "font-size": "25px"
+            },
+            "P": {
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-y",
+          "_params": {
+            "imageSize": "70",
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#2969b0",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Live Online Shows",
+          "text": "Welcome to our Radio Station where all our Daily Shows and Events are lined up so that all our most valued listeners will benefit from choosing what program they would like to get their soul entertainment from",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/0001c-2000x1673.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Support Platform",
+                "showText": true,
+                "text": "<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">&nbsp;ALL YOUR SUPPORT IS RIGHT HERE!</a> "
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "Your Support Platform",
+                "showText": true,
+                "text": "We are always at your service in the event of any need arising up in your business activities daily .",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "Your Support Platform",
+                "showText": true,
+                "text": "&nbsp;We are always here for you 24/7",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">24/7</a> "
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#3d8eb9",
+            "showBullets": true
+          },
+          "_anchor": "slider3-19",
+          "articleLayout": false,
+          "_styles": {
+            "H2": {
+              "color": "#fac51c",
+              "font-size": "60px"
+            },
+            ".btn": {
+              "font-size": "36px"
+            },
+            "P": {
+              "font-size": "25px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#fac51c"
+            },
+            "SMALL": {
+              "color": "#000000",
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1a",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#7e9b9f",
+            "showMeta": true
+          },
+          "title": "More on Support Procedures",
+          "meta": "When you have an issue that requires our support attention, all you have to do is to raise a ticket - we mean a support ticket indicating exactly what it is that you require support from. You need to clearly state that which is your concernand in most <br>cases we normally respond within 48-72 hours of claim registry being the least and most period respectively.<br>Our business email; support@prosperinggodsway.com<br><br>Also our facebook page can be of great aid to your getting timely support to your claims.<br>www.facebook.com/myradiostation"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-11",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2969b0",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          }
         }
       ]
     }
