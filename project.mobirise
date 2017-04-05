@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 51,
+    "uniqCompNum": 61,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -189,118 +189,96 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
-          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">CONTACT US</a>",
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extFeatures2",
-          "_anchor": "extFeatures2-e",
-          "_params": {
-            "elements": "4",
-            "iconsColor": "#2969b0",
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures2_bg.jpg",
-            "bgColor": "#475577",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
             },
-            "bgVideoRadio": false,
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1o",
+          "_params": {
+            "imageSize": "59",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": ""
+            },
+            "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.1,
-            "overlayColor": "#000",
+            "overlayOpacity": "0.8",
+            "overlayColor": "#2969b0",
             "inverse": false,
             "showTitle": true,
             "showText": true,
-            "showIcons": true
+            "showButtons": false
           },
           "media": {
             "image": {
-              "active": true,
-              "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+              "width": 1400,
+              "src": "file:///C:/Users/Dell/AppData/Local/Mobirise.com/Mobirise/projectData/mrs-1400x400_1.png",
               "link": "",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
-            }
-          },
-          "title": "WELCOME TO OUR GOSPEL RADIO STATION&nbsp;",
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont-extFeatures2",
-              "linkInNewWindow": false,
-              "name": "youtube",
-              "family": "socicon",
-              "active": true,
-              "size": 0,
-              "color": "#2c82c9"
-            }
-          },
-          "title1": "Drive Through Show",
-          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont-features6",
-              "linkInNewWindow": false,
-              "name": "youtube-play",
-              "family": "FontAwesome",
-              "active": true,
-              "size": 0,
-              "color": "#2c82c9"
-            }
-          },
-          "title2": "Mid-Day Music Show",
-          "text2": "Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers projects.",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont-features6",
-              "linkInNewWindow": false,
-              "name": "youtube",
-              "family": "socicon",
-              "active": true,
-              "size": 0,
-              "color": "#27aae0"
-            }
-          },
-          "title3": "Country Music",
-          "text3": "Key differences from traditional builders: Minimalistic, extremely easy-to-use interface Mobile-friendliness, latest website blocks and techniques \"out-the-box\"  Free for commercial and non-profit use",
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont-features6",
-              "linkInNewWindow": false,
-              "name": "youtube",
-              "family": "socicon",
-              "active": true,
-              "size": 0,
-              "color": "#27aae0"
-            }
-          },
-          "title4": "Great Worship Tracks",
-          "text4": "Create awesome mobile-friendly websites. No coding and free.",
-          "_styles": {
-            ".etl-icon": {
-              "color": "#2969b0"
             },
-            "H2": {
-              "font-size": "36px",
-              "color": "#f97352"
+            "video": {
+              "src": "https://youtu.be/n0ZkQg5dCRw",
+              "aspectratio": "4:3",
+              "autoplay": "on",
+              "loop": false,
+              "active": true
             },
-            ".intro-box h4": {
-              "color": "#fac51c"
-            },
-            "P": {
-              "font-size": "17px"
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
             }
-          }
+          },
+          "title": "A rough run down of creating your own radio station at home<br><br>",
+          "text": "Right in the comfort of your own home, at your earliest convinience, you can create your own home radio broadcasting station within one hour at the least and 3 hours the most.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-1f"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          },
           "_anchor": "contacts1-3",
           "_params": {
             "paddingTop": "1",
@@ -332,15 +310,7 @@
           },
           "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
           "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
-          "_styles": {
-            "P": {
-              "color": "#fac51c"
-            },
-            "A": {
-              "color": "#fac51c"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //"
         }
       ]
     },
@@ -449,7 +419,8 @@
               "font-size": "25px"
             },
             "P": {
-              "font-size": "20px"
+              "font-size": "20px",
+              "color": "#b8312f"
             }
           },
           "_tags": [
@@ -483,16 +454,16 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
-              "link": "",
+              "link": "<!-- AudioAcrobat.com Player code BEGIN --> <iframe width='320px' height='25px' src='https://www.audioacrobat.com/tplay/Bff09e5c4fe0a243eb4af9ca51efe47cdPgU8ACoeOyQkeEN1RG50alAIAAEQMksRJQcfaQQAP08dKhMTHBQcBjhVIQc7BSFpakwFMgN2DicvDAoEGiEKAygSSCYYCGQRAiMLF1YcWA0GGBhFHm5JYg' frameBorder='0'></iframe> <!-- AudioAcrobat.com Player code END -->",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "src": "<!-- AudioAcrobat.com Player code BEGIN --> <iframe width='320px' height='25px' src='https://www.audioacrobat.com/tplay/Bff09e5c4fe0a243eb4af9ca51efe47cdPgU8ACoeOyQkeEN1RG50alAIAAEQMksRJQcfaQQAP08dKhMTHBQcBjhVIQc7BSFpakwFMgN2DicvDAoEGiEKAygSSCYYCGQRAiMLF1YcWA0GGBhFHm5JYg' frameBorder='0'></iframe> <!-- AudioAcrobat.com Player code END -->",
+              "aspectratio": "4:3",
+              "autoplay": "on",
+              "loop": "on"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box5",
@@ -500,9 +471,40 @@
               "size": 250
             }
           },
-          "title": "Live Online Shows",
-          "text": "Welcome to our Radio Station where all our Daily Shows and Events are lined up so that all our most valued listeners will benefit from choosing what program they would like to get their soul entertainment from",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "title": "<br><span style=\"line-height: 1.1;\">Live Online Shows</span><br>",
+          "text": "<p><a href=\"&lt;!-- AudioAcrobat.com Player code BEGIN --&gt; &lt;iframe width='320px' height='25px' src='https://www.audioacrobat.com/tplay/Bff09e5c4fe0a243eb4af9ca51efe47cdPgU8ACoeOyQkeEN1RG50alAIAAEQMksRJQcfaQQAP08dKhMTHBQcBjhVIQc7BSFpakwFMgN2DicvDAoEGiEKAygSSCYYCGQRAiMLF1YcWA0GGBhFHm5JYg' frameBorder='0'&gt;&lt;/iframe&gt; &lt;!-- AudioAcrobat.com Player code END --&gt;\" style=\"font-style: normal;\" class=\"text-warning\">Welcome Online Shows</a>&nbsp;Welcome to our Radio Station where all our Daily Shows and Events are lined up so that all our most valued listeners will benefit from choosing what program they would like to get their soul entertainment from</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_customCSS": ""
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "\n\n\n\n    <title> I AM LEARNING THE CODE AND AM DOING QUITE FINE </title>\n{JS_CODE_0}\n\n\n\n\n\n   <form id=\"form1\" runat=\"server\">\n\n      <h3> I AM LEARNING THE CODE AND AM DOING QUITE FINE </h3>\n\n      <asp:placeholder id=\"Place\" runat=\"server\"></asp:placeholder>\n\n      <br><br>\n\n      <asp:label id=\"Message\" runat=\"server\"></asp:label>\n\n   </form>\n\n\n\n\n",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script runat=\"server\">\n\n      void Page_Load(Object sender, EventArgs e)\n      {\n\n         // Create a new Button control.\n         Button NewButton = new Button();\n         NewButton.Text=\"Click Me\";\n\n         // Register the event-handling method for the Click event. \n         NewButton.Click += new EventHandler(this.Button_Click);\n\n         // Add the control to the Controls collection of the\n         // PlaceHolder control. \n         Place.Controls.Clear();\n         Place.Controls.Add(NewButton);\n\n      }\n\n      void Button_Click(Object sender, EventArgs e)\n      {\n\n         Message.Text = \"Hello World\";\n\n      }\n\n   </script>"
+          ],
+          "_anchor": "custom-html-1k"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<asp:content id=\"Content2\" contentplaceholderid=\"MainContent\" runat=\"server\">\n\n<asp:calendarextender id=\"CalendarExtender1\" targetcontrolid=\"dteEventDateTime\" runat=\"server\"></asp:calendarextender>\n\n<div>\n<table>\n    <tbody><tr>\n        <td class=\"style5\">\n           Date/Time: <input type=\"text\" id=\"dteEventDateTime\">\n        </td>\n    </tr>\n</tbody></table>\n</div></asp:content>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-1l"
         },
         {
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">CONTACT US</a>",
@@ -523,7 +525,8 @@
               "color": "#fac51c"
             },
             "P": {
-              "font-size": "17px"
+              "font-size": "20px",
+              "color": "#f97352"
             }
           },
           "_anchor": "extFeatures2-1b",
@@ -551,7 +554,7 @@
             "image": {
               "active": true,
               "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x6926.png",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69215.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -570,8 +573,8 @@
               "color": "#2c82c9"
             }
           },
-          "title1": "Coffee @ 10",
-          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "title1": "<a href=\"&lt;!-- AudioAcrobat.com Player code BEGIN --&gt; &lt;iframe width='320px' height='25px' src='https://www.audioacrobat.com/tplay/Bfc4da27473c4f56fcae69c787a903004PgU8ACoeOyQkeEN1RGh0alAIAAEQMksRJQcfaQQAP08dKhMTHBQcBjhVIQc7BSFpakwFMgN2DicvDAoEGiEKAygSSCYYCGQRAiMLF1YcJycMUXklHm5JYg' frameBorder='0'&gt;&lt;/iframe&gt; &lt;!-- AudioAcrobat.com Player code END --&gt;\">Coffee @ 10</a>",
+          "text1": "Coffee @ 10 is a club for the aged elite who will gather themselves together that mid morning for whatever lined up events.",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont-features6",
@@ -584,7 +587,7 @@
             }
           },
           "title2": "News At Six",
-          "text2": "Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers projects.",
+          "text2": "You need to keep up with the News Hour for your current affairs in state, national and abroad news wise.",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont-features6",
@@ -597,7 +600,7 @@
             }
           },
           "title3": "Sports Hour&nbsp;",
-          "text3": "Key differences from traditional builders: Minimalistic, extremely easy-to-use interface Mobile-friendliness, latest website blocks and techniques \"out-the-box\"  Free for commercial and non-profit use",
+          "text3": "Sports hour is the hour most of us will be waiting for. A time for our teams and fans ` cheering up the great work and playings of teams and players.",
           "media4": {
             "iconFont": {
               "class": "mbr-iconfont-features6",
@@ -610,31 +613,115 @@
             }
           },
           "title4": "All Night Sounds",
-          "text4": "Create awesome mobile-friendly websites. No coding and free."
+          "text4": "This is our station thattakes us through the whole night for those at work and on travel what a good company this is for you."
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extCounters2",
+          "_anchor": "extCounters2-1n",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures5_bg.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "H3": {
-              "font-size": "36px",
-              "color": "#5411ed"
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#222",
+            "columns": 3,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": false,
+            "showButtons": false,
+            "showImages": true
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "cart-add",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "page1.html",
+              "size": 0,
+              "color": "#e25041",
+              "newWindow": false
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-1e",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgColor": "#f97352",
-            "showMeta": true
+          "number1": "899",
+          "title1": "SHOWS",
+          "subtitle1": "<br>",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "cart-add",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "page1.html",
+              "size": 0,
+              "color": "#27aae0",
+              "newWindow": false
+            }
           },
-          "title": "SCROLL FURTHER DOWN FOR OUR RADIO SHOES",
-          "meta": ""
+          "number2": "1783",
+          "title2": "BROADCASTING",
+          "subtitle2": "<br>",
+          "caption2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "right",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "page1.html",
+              "size": 0,
+              "color": "#e25041",
+              "newWindow": false
+            }
+          },
+          "number3": "1247",
+          "title3": "EVENTS",
+          "subtitle3": "<br>",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#232323",
+              "family": "et-line"
+            }
+          },
+          "number4": "3777",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_styles": {
+            "H4": {
+              "color": "#eb6b56"
+            },
+            "SPAN": {
+              "color": "#fac51c"
+            }
+          }
         },
         {
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">CONTACT US</a>",
@@ -653,18 +740,15 @@
             },
             ".intro-box h4": {
               "color": "#fac51c"
-            },
-            "P": {
-              "font-size": "17px"
             }
           },
-          "_anchor": "extFeatures2-l",
+          "_anchor": "extFeatures2-1m",
           "_params": {
             "elements": "4",
             "iconsColor": "#2969b0",
             "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures2_bg.jpg",
+            "bgImage": "file:///C:/Users/Dell/AppData/Local/Mobirise.com/Mobirise/projectData/img_extFeatures2_bg.jpg",
             "bgColor": "#475577",
             "bgColorRadio": true,
             "bgVideo": {
@@ -683,14 +767,14 @@
             "image": {
               "active": true,
               "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69215.png",
               "link": "",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
             }
           },
-          "title": "&nbsp;WELCOME TO OUR DAILY SHOWS",
+          "title": "&nbsp;WELCOME TO OUR DAILY &nbsp;SHOWS",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont-extFeatures2",
@@ -715,7 +799,7 @@
               "color": "#2c82c9"
             }
           },
-          "title2": "Breakfast Show at Seven&nbsp;",
+          "title2": "7am Breakfast Show &nbsp;",
           "text2": "Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers projects.",
           "media3": {
             "iconFont": {
@@ -728,7 +812,7 @@
               "color": "#27aae0"
             }
           },
-          "title3": "Mid-Day Music",
+          "title3": "Coffee @ 10",
           "text3": "Key differences from traditional builders: Minimalistic, extremely easy-to-use interface Mobile-friendliness, latest website blocks and techniques \"out-the-box\"  Free for commercial and non-profit use",
           "media4": {
             "iconFont": {
@@ -741,7 +825,7 @@
               "color": "#27aae0"
             }
           },
-          "title4": "Drive Through Show",
+          "title4": "Mid-Day Music",
           "text4": "Create awesome mobile-friendly websites. No coding and free."
         },
         {
@@ -749,6 +833,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          },
           "_anchor": "contacts1-m",
           "_params": {
             "paddingTop": "1",
@@ -780,15 +872,7 @@
           },
           "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
           "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
-          "_styles": {
-            "P": {
-              "color": "#fac51c"
-            },
-            "A": {
-              "color": "#fac51c"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //"
         }
       ]
     },
@@ -966,33 +1050,33 @@
             "slides": [
               {
                 "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+                "active": true,
                 "link": false,
                 "linkUrl": "http://google.com",
                 "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png",
-                "active": true
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
               },
               {
                 "src": "@PROJECT_PATH@/assets/images/customer-service-2000x1120.jpg",
+                "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
                 "image": "@PROJECT_PATH@/assets/images/customer-service-1024x576.jpg",
                 "title": "title 2",
                 "text": "text 2",
-                "tooltip": "@PROJECT_PATH@/assets/images/customer-service-85x48.png",
-                "active": false
+                "tooltip": "@PROJECT_PATH@/assets/images/customer-service-85x48.png"
               },
               {
                 "src": "@PROJECT_PATH@/assets/images/my-radio-station-logo-231x128.png",
+                "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
                 "image": "@PROJECT_PATH@/assets/images/my-radio-station-logo-1024x576.jpg",
                 "title": "title 3",
                 "text": "text 3",
-                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-logo-85x48.png",
-                "active": false
+                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-logo-85x48.png"
               },
               {
                 "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
@@ -1081,7 +1165,8 @@
               "text-align": "center"
             },
             "H3": {
-              "color": "#0fec4f"
+              "color": "#0fec4f",
+              "font-size": "46px"
             }
           },
           "_tags": [
@@ -1095,8 +1180,8 @@
             "bgColor": "#2969b0",
             "showMeta": true
           },
-          "title": "Images are a TRUE picture of an Organisation",
-          "meta": "<b>By Dr.Norman Mike M</b>"
+          "title": "Images are a TRUE Reflection of an Organisation",
+          "meta": ""
         },
         {
           "alias": "wowslider",
@@ -1206,6 +1291,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          },
           "_anchor": "contacts1-r",
           "_params": {
             "paddingTop": "1",
@@ -1237,15 +1330,7 @@
           },
           "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
           "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
-          "_styles": {
-            "P": {
-              "color": "#fac51c"
-            },
-            "A": {
-              "color": "#fac51c"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //"
         }
       ]
     },
@@ -1414,6 +1499,11 @@
             "Theme"
           ],
           "_name": "slider3",
+          "_styles": {
+            ".btn": {
+              "font-size": "36px"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": "0",
@@ -1454,12 +1544,7 @@
             "showBullets": true
           },
           "_anchor": "slider3-15",
-          "articleLayout": false,
-          "_styles": {
-            ".btn": {
-              "font-size": "36px"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_styles": {
@@ -1506,25 +1591,33 @@
             "Theme"
           ],
           "_name": "content2",
+          "_styles": {
+            "P": {
+              "font-size": "30px",
+              "color": "#000000"
+            }
+          },
           "_anchor": "content2-18",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#c0a375"
           },
-          "text": "<p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i><b>A</b>t Prospering God`s Way Studios customer is king and we abide by that motto. For all your concerns and claims this is the platform. All you have to do is you &nbsp;email; send all your requests and claims to the emails provided below.</i></span></font></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>support@prosperinggodsway.com</i></span></font><i style=\"line-height: 26px; font-family: Lora, serif;\">;</i></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>You can also easily contact us through our facebook page, and I guarantee you that the service is as efficient as the emails.</i></span></font></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>On a normal rating after a claim or support request has been launched, we take 48 -72 hrs response time being the least and the most response time respectively.</i></span></font></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>Our facebookpage &nbsp;- <b>www.facebook.com/myradiostation</b>. &nbsp;/</i></span></font></p>",
-          "_styles": {
-            "P": {
-              "font-size": "30px",
-              "color": "#000000"
-            }
-          }
+          "text": "<p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i><b>A</b>t Prospering God`s Way Studios customer is king and we abide by that motto. For all your concerns and claims this is the platform. All you have to do is you &nbsp;email; send all your requests and claims to the emails provided below.</i></span></font></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>support@prosperinggodsway.com</i></span></font><i style=\"line-height: 26px; font-family: Lora, serif;\">;</i></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>You can also easily contact us through our facebook page, and I guarantee you that the service is as efficient as the emails.</i></span></font></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>On a normal rating after a claim or support request has been launched, we take 48 -72 hrs response time being the least and the most response time respectively.</i></span></font></p><p><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>Our facebookpage &nbsp;- <b>www.facebook.com/myradiostation</b>. &nbsp;/</i></span></font></p>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          },
           "_anchor": "contacts1-w",
           "_params": {
             "paddingTop": "1",
@@ -1556,15 +1649,7 @@
           },
           "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
           "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
-          "_styles": {
-            "P": {
-              "color": "#fac51c"
-            },
-            "A": {
-              "color": "#fac51c"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //"
         }
       ]
     },
@@ -1733,6 +1818,18 @@
             "Theme"
           ],
           "_name": "slider3",
+          "_styles": {
+            "H2": {
+              "color": "#fac51c",
+              "font-size": "60px"
+            },
+            ".btn": {
+              "font-size": "36px"
+            },
+            "P": {
+              "font-size": "25px"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": "0",
@@ -1787,19 +1884,7 @@
             "showBullets": true
           },
           "_anchor": "slider3-19",
-          "articleLayout": false,
-          "_styles": {
-            "H2": {
-              "color": "#fac51c",
-              "font-size": "60px"
-            },
-            ".btn": {
-              "font-size": "36px"
-            },
-            "P": {
-              "font-size": "25px"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_styles": {
@@ -1833,6 +1918,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#fac51c"
+            },
+            "A": {
+              "color": "#fac51c"
+            }
+          },
           "_anchor": "contacts1-11",
           "_params": {
             "paddingTop": "1",
@@ -1864,15 +1957,7 @@
           },
           "text1": "<strong>Address</strong><br>AA Shelduck Way<br>Broome, WA 6725",
           "text2": "<strong>Contacts</strong><br>\nEmail: support@prosperinggodsway.com<br>\nPhone: +61891211029<br>\nFax: +61891211029",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //",
-          "_styles": {
-            "P": {
-              "color": "#fac51c"
-            },
-            "A": {
-              "color": "#fac51c"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\" class=\"text-danger\">Home</a><br><a href=\"page1.html\">Station Shows</a> / <a href=\"page2.html\">Imagery Gallery</a><br><a href=\"page3.html\" class=\"text-warning\">Customer Services</a> / <a href=\"page4.html\">Support</a> //"
         }
       ]
     }
