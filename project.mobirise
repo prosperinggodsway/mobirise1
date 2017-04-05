@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Prospering God`s Way Studios",
-    "currentPage": "index.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -554,7 +554,7 @@
             "image": {
               "active": true,
               "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69215.png",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69218.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -767,7 +767,7 @@
             "image": {
               "active": true,
               "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69215.png",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69218.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -1501,7 +1501,10 @@
           "_name": "slider3",
           "_styles": {
             ".btn": {
-              "font-size": "36px"
+              "font-size": "23px"
+            },
+            "H2": {
+              "color": "#fac51c"
             }
           },
           "_params": {
@@ -1518,7 +1521,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "showTitle": true,
-                "title": "<a href=\"page3.html\">Customer Support</a>",
+                "title": "<a href=\"page3.html\" class=\"text-warning\">Customer S</a>ervice",
                 "showText": true,
                 "text": "<br>",
                 "showButtons": true,
@@ -1536,7 +1539,7 @@
                 "showText": true,
                 "text": "<br>",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YOUR SUPPORT IS FINALLY HERE<br></a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YOUR CUSTOMER SERVICE IS FINALLY HERE<br></a> "
               }
             ],
             "fullScreen": false,
@@ -1582,8 +1585,8 @@
             "showText": true,
             "showButton": false
           },
-          "title": "Customer Support",
-          "text": "<p>You have arrived at your service platform for all your claims, and help that might be needed as far and as far as we do business together..</p>",
+          "title": "Customer Service",
+          "text": "<p>You have arrived at your service platform for all your customer claims, and help that might be needed as far and as far as we do business together..</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
