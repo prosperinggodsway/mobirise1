@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Prospering God`s Way Studios",
-    "currentPage": "page3.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -554,7 +554,7 @@
             "image": {
               "active": true,
               "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69219.png",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69220.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -767,7 +767,7 @@
             "image": {
               "active": true,
               "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69219.png",
+              "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x69220.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -1049,14 +1049,14 @@
             "size": "1024x576",
             "slides": [
               {
-                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
-                "active": true,
+                "src": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
+                "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/mbr-85x48.png"
               },
               {
                 "src": "@PROJECT_PATH@/assets/images/customer-service-2000x1120.jpg",
@@ -1079,14 +1079,24 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-logo-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+                "src": "@PROJECT_PATH@/assets/images/mbr-2000x1330.jpg",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/mbr-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/1c--2000x1193.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/1c-1024x576.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/1c-85x48.png"
               },
               {
                 "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
@@ -1099,14 +1109,14 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
+                "src": "@PROJECT_PATH@/assets/images/1a-1024x576.jpg",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1a-1-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/1a-1-85x48.png"
               },
               {
                 "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
@@ -1119,24 +1129,14 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
-                "active": false,
+                "src": "@PROJECT_PATH@/assets/images/1b-1024x576.jpg",
+                "active": true,
                 "link": false,
                 "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1b-1-1024x576.jpg",
                 "title": "title 1",
                 "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/my-radio-station-1400x692.png",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/my-radio-station-1024x576.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/my-radio-station-85x48.png"
+                "tooltip": "@PROJECT_PATH@/assets/images/1b-1-85x48.png"
               }
             ],
             "theme": "studio",
